@@ -53,7 +53,7 @@ body::before{
 }
 
 .page-section{
-    @apply mt-16
+    @apply mt-12 sm:mt-16
 }
 
 .title{

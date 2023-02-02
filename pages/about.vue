@@ -2,10 +2,12 @@
   <main class="container">
     <h1 class="title">About me</h1>
     <p class="mt-4 max-w-xl text-paragraph text-gray">
-      I'm Dominik, a web developer from Bratislava, Slovakia. I have a passion
-      for technology and design, developed through years of playing basketball,
-      graphic design and IT studies. My interest in web technologies really took
-      off in college, where I began building more advanced web applications.
+      I'm Dominik, a <span class="link"> web developer</span> from Bratislava,
+      Slovakia. I have a passion for technology, sports and design. Developed
+      through years of <span class="link"> playing basketball</span>,
+      <span class="link"> graphic design</span> and IT studies. My interest in
+      web technologies really took off in college, where I began building more
+      advanced web applications.
     </p>
 
     <section class="page-section">

@@ -1,6 +1,6 @@
 <template>
   <div>
-    <p class="mb-1 text-sm sm:mb-0 sm:text-base">I use this</p>
+    <p class="text-sm sm:mb-0 sm:text-base">I use this</p>
     <h3 class="subtitle mt-1">Technologies</h3>
     <div>
       <div class="mt-4 grid select-none grid-cols-2 gap-x-6 gap-y-1 text-white">

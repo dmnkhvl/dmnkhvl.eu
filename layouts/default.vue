@@ -1,5 +1,8 @@
 <template>
   <div>
+    <Head>
+      <Title>Dominik Havel - dmnkhvl</Title>
+    </Head>
     <div class="sm:pb-24">
       <AppNavBar />
     </div>
