@@ -1,5 +1,7 @@
 <template>
-  <div class="fixed bg-blur bottom-0 sm:top-0 left-0 right-0 h-[60px]">
+  <div
+    class="border-t border-white/10 fixed bg-blur bottom-0 sm:top-0 left-0 right-0 h-[60px]"
+  >
     <div
       class="container flex items-center justify-center sm:justify-between h-full"
     >
