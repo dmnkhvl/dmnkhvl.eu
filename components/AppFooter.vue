@@ -1,6 +1,6 @@
 <template>
   <footer
-    class="mt-20 border-t border-white/10 flex flex-row gap-x-10 items-center justify-center h-[60px]"
+    class="hidden sm:flex mt-20 border-t border-white/10 flex flex-row gap-x-10 items-center justify-center h-[60px]"
   >
     <NuxtLink
       v-for="link in navLinks"

@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div class="container mt-10 sm:mt-0">
     <p class="mb-1 text-sm sm:mb-1 sm:text-base">{{ getGreeting() }}, I'm</p>
     <h1 class="text-4xl font-bold capitalize text-white sm:text-[2.75rem]">
       Dominik Havel

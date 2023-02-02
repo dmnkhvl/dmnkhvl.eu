@@ -1,9 +1,11 @@
 <template>
   <div>
-    <div class="pb-24">
+    <div class="sm:pb-24">
       <AppNavBar />
     </div>
-    <slot />
+    <div class="pb-16 sm:pb-0">
+      <slot />
+    </div>
     <AppFooter />
   </div>
 </template>

@@ -1,6 +1,8 @@
 <template>
-  <div class="fixed bg-blur top-0 left-0 right-0 h-[60px]">
-    <div class="container flex items-center justify-between h-full">
+  <div class="fixed bg-blur bottom-0 sm:top-0 left-0 right-0 h-[60px]">
+    <div
+      class="container flex items-center justify-center sm:justify-between h-full"
+    >
       <nav class="flex items-center gap-x-10">
         <NuxtLink
           v-for="link in navLinks"
