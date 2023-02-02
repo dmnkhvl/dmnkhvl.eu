@@ -1,0 +1,82 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    @apply bg-black text-gray
+}
+
+body::before{
+    width: 100%;
+    height: 80%;
+    content: '';
+    position: fixed;
+    background: radial-gradient(75.61% 75.61% at 50% 24.39%, rgb(16, 15, 15) 0%, rgb(12, 13, 12) 100%);
+    z-index: -1;
+}
+
+@font-face {
+    font-family: "DM Sans";
+    src: url("assets/fonts/DMSans-Regular.ttf");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "DM Sans";
+    src: url("assets/fonts/DMSans-Medium.ttf");
+
+    font-weight: 500;
+}
+@font-face {
+    font-family: "DM Sans";
+    src: url("assets/fonts/DMSans-Bold.ttf");
+    font-weight: 700;
+}
+
+::-moz-selection {
+    /* Code for Firefox */
+    color: #fff;
+    background: #00dc82;
+}
+
+::selection {
+    color: #fff;
+    background: #00dc82;
+}
+
+.bg-blur{
+    @apply  backdrop-blur-md
+}
+
+.container{
+    @apply mx-auto max-w-[660px] px-8 lg:px-2
+}
+
+.page-section{
+    @apply mt-16
+}
+
+.title{
+    @apply  text-4xl font-bold capitalize text-white md:text-[2.75rem]
+}
+
+.subtitle{
+    @apply text-2xl font-bold capitalize text-white sm:text-[1.875rem]
+}
+
+.label{
+    @apply select-none rounded-lg bg-alt/5 px-2 py-1 text-sm text-alt
+}
+
+.link{
+    @apply text-white decoration-white/20 underline underline-offset-4 hover:decoration-white  decoration-solid transition duration-500 ease-in-out
+}
+
+.btn{
+    @apply py-1 px-3 rounded-md hover:drop-shadow-xl ;
+}
+
+.btn-primary{
+    @apply bg-white/80;
+    background: linear-gradient(88.68deg, #0ad27d -36.99%, #6aecb8 111.2%);
+}
