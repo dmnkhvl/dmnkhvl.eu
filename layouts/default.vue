@@ -3,7 +3,7 @@
     <div class="sm:pb-24">
       <AppNavBar />
     </div>
-    <div class="pb-20 sm:pb-0">
+    <div class="pb-20 sm:pb-0 pt-10 sm:pt-0">
       <slot />
     </div>
     <AppFooter />
