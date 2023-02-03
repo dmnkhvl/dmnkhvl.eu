@@ -39,9 +39,7 @@
           Projects</NuxtLink
         >
       </nav>
-      <div>
-        <!-- ADD SOCIALS-->
-      </div>
+      <SocialsBar />
     </div>
   </div>
 </template>
