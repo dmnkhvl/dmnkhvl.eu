@@ -3,7 +3,7 @@
     <Head>
       <Title>Dominik Havel - dmnkhvl</Title>
     </Head>
-    <div class="sm:pb-24">
+    <div class="sm:pb-28">
       <AppNavBar />
     </div>
     <div class="pb-32 sm:pb-0 pt-10 sm:pt-0">

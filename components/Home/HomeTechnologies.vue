@@ -9,7 +9,7 @@
           :key="technology.id"
           class="col-span-1 row-span-1 flex items-center gap-x-2"
         >
-          <!--          <v-icon :name="technology.icon" class="text-gray"></v-icon>-->
+          <!--          <nuxt-icon :name="technology.icon"></nuxt-icon>-->
           <p>{{ technology.name }}</p>
         </div>
       </div>
@@ -24,17 +24,17 @@ export default {
         {
           id: 0,
           name: "JavaScript",
-          icon: "co-javascript",
+          icon: "js",
         },
         {
           id: 1,
           name: "TypeScript",
-          icon: "co-typescript",
+          icon: "ts",
         },
         {
           id: 2,
           name: "Vue.js",
-          icon: "co-vue-js",
+          icon: "vue",
         },
         {
           id: 3,

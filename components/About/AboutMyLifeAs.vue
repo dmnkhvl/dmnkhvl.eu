@@ -27,8 +27,7 @@
       settling on using
       <ExternalLink href="https://tailwindcss.com/docs/installation"
         >Tailwind CSS</ExternalLink
-      >. While I am still relatively new to web development, I am excited to
-      continue learning and expanding my skills.
+      >.
     </p>
     <h3 class="text-heading3 leading-none text-white pt-10" id="basketball">
       <a class="text-special" href="#basketball" aria-hidden="true">#</a>

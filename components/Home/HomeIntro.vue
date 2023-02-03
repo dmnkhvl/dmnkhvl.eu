@@ -1,12 +1,13 @@
 <template>
   <div class="container">
-    <p class="mb-1 text-sm sm:mb-1 sm:text-base">{{ getGreeting() }}, I'm</p>
+    <!--    <p class="mb-1 text-sm sm:mb-1 sm:text-base">{{ getGreeting() }}, I'm</p>-->
     <h1 class="text-4xl font-bold capitalize text-white sm:text-[2.75rem]">
       Dominik Havel
     </h1>
-    <h2 class="text-[0.98rem] text-white capitalize sm:mt-1 sm:font-bold">
+    <h2 class="text-[0.98rem] capitalize sm:mt-1">
       web developer & ex-graphic designer.
     </h2>
+    <p class="mt-2 max-w-xl"></p>
   </div>
 </template>
 <script lang="ts">

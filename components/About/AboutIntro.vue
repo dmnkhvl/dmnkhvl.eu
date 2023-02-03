@@ -1,6 +1,6 @@
 <template>
   <h1 class="title">About me</h1>
-  <p class="mt-4 max-w-xl text-paragraph text-gray">
+  <p class="my-4 max-w-xl text-paragraph text-gray">
     I'm Dominik, a
     <a class="link" @click="scrollTo('developer')"> web developer</a> from
     Bratislava, Slovakia. I have a passion for technology, sports and design.

@@ -73,7 +73,7 @@ select{
 }
 
 .link{
-    @apply text-white decoration-white/20 underline underline-offset-4 hover:decoration-white  decoration-solid transition duration-500 ease-in-out active:decoration-white
+    @apply text-white decoration-white/20 underline underline-offset-4 hover:decoration-white  decoration-dotted transition duration-500 ease-in-out active:decoration-white
 }
 
 .btn{
