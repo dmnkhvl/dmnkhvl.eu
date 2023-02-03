@@ -33,11 +33,6 @@
         While I am still relatively new to web development, I am excited to
         continue learning and expanding my skills.
       </p>
-      <img
-        src="/developer.png"
-        alt="code"
-        class="h-92 rounded-xl object-cover w-full mt-6"
-      />
       <h3 class="text-heading3 leading-none text-white pt-10" id="basketball">
         <a class="text-special" href="#basketball" aria-hidden="true">#</a>
         Basketball player
@@ -48,11 +43,6 @@
         medals, and even had the honor of representing my country on the
         international stage, including European and World Championships.
       </p>
-      <img
-        src="/basketball.jpg"
-        alt="playing-basketball"
-        class="h-92 rounded-xl object-cover w-full mt-6"
-      />
 
       <h3 class="text-heading3 leading-none text-white pt-10" id="founder">
         <a class="text-special" href="#founder" aria-hidden="true">#</a>
@@ -66,11 +56,6 @@
         the brand basketlab was abandoned and the project continued under the
         Slovak Basketball Association.
       </p>
-      <img
-        src="/basketlab.jpg"
-        alt="basketlab-logo"
-        class="h-92 rounded-xl object-cover w-full mt-6"
-      />
 
       <h3 class="text-heading3 leading-none text-white pt-10" id="designer">
         <a class="text-special" href="#designer" aria-hidden="true">#</a>
@@ -85,11 +70,6 @@
         other graphic elements. Additionally, I've had some experience in photo
         editing, video editing, and animation.
       </p>
-      <img
-        src="/designer.jpg"
-        alt="design"
-        class="h-92 rounded-xl object-cover w-full mt-6"
-      />
     </section>
   </main>
 </template>
