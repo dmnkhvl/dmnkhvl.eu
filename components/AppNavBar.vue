@@ -22,8 +22,8 @@
           to="/"
           :class="
             $route.path === '/'
-              ? 'sm:hidden text-special'
-              : 'sm:hidden text-white'
+              ? 'sm:hidden text-special px-2 py-1 '
+              : 'sm:hidden text-white px-2 py-1'
           "
         >
           <nuxt-icon
@@ -46,8 +46,6 @@
   </div>
 </template>
 
-<script setup lang="ts">
-const { locale } = useI18n();
-</script>
+<script setup lang="ts"></script>
 
 <style scoped></style>
