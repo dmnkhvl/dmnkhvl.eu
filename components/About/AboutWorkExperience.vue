@@ -24,7 +24,7 @@ export default {
         {
           id: 0,
           company: "Freelance",
-          date: "nov2022 - jan2022",
+          date: "oct2022 - jan2022",
           position: "Web Developer",
         },
         {
