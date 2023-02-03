@@ -13,5 +13,8 @@
     "nuxt": "^3.1.0",
     "prettier": "^2.8.3",
     "prettier-plugin-tailwindcss": "^0.2.2"
+  },
+  "dependencies": {
+    "nuxt-icons": "^3.1.0"
   }
 }

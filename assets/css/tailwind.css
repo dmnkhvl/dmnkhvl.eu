@@ -44,6 +44,10 @@ body::before{
     background: #00dc82;
 }
 
+select{
+    /*@apply bg-*/
+}
+
 .bg-blur{
     @apply  backdrop-blur-md
 }

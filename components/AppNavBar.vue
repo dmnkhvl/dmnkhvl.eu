@@ -7,11 +7,29 @@
     >
       <nav class="flex items-center gap-x-10">
         <NuxtLink
-          v-for="link in navLinks"
-          :key="link.to"
-          :to="link.to"
+          to="/"
+          class="hidden sm:flex text-white decoration-white/20 underline underline-offset-8 hover:decoration-white decoration-solid transition duration-300 ease-in-out"
+        >
+          Home
+        </NuxtLink>
+        <NuxtLink
+          to="/about"
           class="text-white decoration-white/20 underline underline-offset-8 hover:decoration-white decoration-solid transition duration-300 ease-in-out"
-          >{{ link.label }}</NuxtLink
+        >
+          About
+        </NuxtLink>
+        <NuxtLink to="/" class="sm:hidden">
+          <nuxt-icon
+            name="home"
+            class="text-xl text-white decoration-white/20 underline underline-offset-8 hover:decoration-white decoration-solid transition duration-300 ease-in-out"
+          />
+        </NuxtLink>
+
+        <NuxtLink
+          to="/projects"
+          class="text-white decoration-white/20 underline underline-offset-8 hover:decoration-white decoration-solid transition duration-300 ease-in-out"
+        >
+          Projects</NuxtLink
         >
       </nav>
       <div>
@@ -21,23 +39,8 @@
   </div>
 </template>
 
-<script lang="ts">
-export default {
-  data() {
-    return {
-      navLinks: [
-        {
-          to: "/",
-          label: "Home",
-        },
-        {
-          to: "about",
-          label: "About",
-        },
-      ],
-    };
-  },
-};
+<script setup lang="ts">
+const { locale } = useI18n();
 </script>
 
 <style lang="scss" scoped></style>
