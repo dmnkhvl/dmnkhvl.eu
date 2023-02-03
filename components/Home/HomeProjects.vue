@@ -65,7 +65,7 @@ export default {
           title: "Order.me",
           img: "/orderme.jpg",
           github: "https://github.com/dmnkhvl/SimpleOrder",
-          live: "https://order.dmnkhvl.eu/",
+          live: "https://simple-order.vercel.app/",
           text: "This app lets users create and manage products in a virtual bag with options to delete and see total cost, subtotal and discount.",
           technologies: [
             {
