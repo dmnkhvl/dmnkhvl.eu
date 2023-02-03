@@ -21,7 +21,7 @@
         <NuxtLink to="/" class="sm:hidden">
           <nuxt-icon
             name="home"
-            class="text-xl text-white decoration-white/20 underline underline-offset-8 hover:decoration-white decoration-solid transition duration-300 ease-in-out"
+            class="text-3xl text-white decoration-white/20 underline underline-offset-8 hover:decoration-white decoration-solid transition duration-300 ease-in-out"
           />
         </NuxtLink>
 

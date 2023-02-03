@@ -11,6 +11,33 @@
       studies. My interest in web technologies really took off in college, where
       I began building more advanced web applications.
     </p>
+    <!--    <section-->
+    <!--      class="page-section flex-col sm:flex w-full items-center justify-between"-->
+    <!--    >-->
+    <!--      <a-->
+    <!--        href="https://github.com/dmnkhvl"-->
+    <!--        class="link border border-white/10 px-16 py-6 rounded-xl hover:bg-white/5 inline-block w-full text-center mb-4"-->
+    <!--        rel="noreferrer"-->
+    <!--        target="_blank"-->
+    <!--        >Github</a-->
+    <!--      >-->
+
+    <!--      <a-->
+    <!--        href="https://www.linkedin.com/in/dmnkhvl/"-->
+    <!--        class="link border border-white/10 px-16 py-6 rounded-xl hover:bg-white/5 inline-block w-full text-center mb-4"-->
+    <!--        rel="noreferrer"-->
+    <!--        target="_blank"-->
+    <!--        >LinkedIn</a-->
+    <!--      >-->
+
+    <!--      <a-->
+    <!--        href="https://twitter.com/dmnkhvl"-->
+    <!--        class="link border border-white/10 px-16 py-6 rounded-xl hover:bg-white/5 inline-block w-full text-center"-->
+    <!--        rel="noreferrer"-->
+    <!--        target="_blank"-->
+    <!--        >Twitter</a-->
+    <!--      >-->
+    <!--    </section>-->
 
     <section class="page-section">
       <h2 class="subtitle">Work Experience</h2>
