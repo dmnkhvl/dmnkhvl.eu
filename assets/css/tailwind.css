@@ -80,3 +80,9 @@ body::before{
     @apply bg-white/80;
     background: linear-gradient(88.68deg, #0ad27d -36.99%, #6aecb8 111.2%);
 }
+
+.paragraph{
+    @apply mt-2 max-w-xl text-paragraph
+}
+
+
