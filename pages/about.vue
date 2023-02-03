@@ -11,6 +11,8 @@
       studies. My interest in web technologies really took off in college, where
       I began building more advanced web applications.
     </p>
+    <!--    <AboutSkills />-->
+
     <!--    <section-->
     <!--      class="page-section flex-col sm:flex w-full items-center justify-between"-->
     <!--    >-->
@@ -102,7 +104,10 @@
 </template>
 
 <script>
+import AboutSkills from "~/components/About/AboutSkills.vue";
+
 export default {
+  components: { AboutSkills },
   methods: {
     scrollTo(id) {
       const el = document.getElementById(id);

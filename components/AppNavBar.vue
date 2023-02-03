@@ -18,10 +18,17 @@
         >
           About
         </NuxtLink>
-        <NuxtLink to="/" class="sm:hidden">
+        <NuxtLink
+          to="/"
+          :class="
+            $route.path === '/'
+              ? 'sm:hidden text-special'
+              : 'sm:hidden text-white'
+          "
+        >
           <nuxt-icon
             name="home"
-            class="text-3xl text-white decoration-white/20 underline underline-offset-8 hover:decoration-white decoration-solid transition duration-300 ease-in-out"
+            class="text-3xl decoration-white/20 underline underline-offset-8 hover:decoration-white decoration-solid transition duration-300 ease-in-out"
           />
         </NuxtLink>
 
@@ -43,4 +50,4 @@
 const { locale } = useI18n();
 </script>
 
-<style lang="scss" scoped></style>
+<style scoped></style>
