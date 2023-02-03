@@ -1,6 +1,6 @@
 <template>
   <div
-    class="border-t border-white/10 sm:border-0 fixed bg-blur bottom-0 sm:top-0 left-0 right-0 h-[65px]"
+    class="bg-black/80 sm:bg-black/50 border-t border-white/10 sm:border-0 fixed bg-blur bottom-0 sm:top-0 left-0 right-0 h-[65px]"
   >
     <div
       class="container flex items-center justify-center sm:justify-between h-full"
