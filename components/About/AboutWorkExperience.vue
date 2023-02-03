@@ -1,19 +1,22 @@
 <template>
-  <div class="mt-4">
-    <div
-      v-for="experience in experiences"
-      :key="experience.id"
-      class="w-full items-end justify-between border-b border-slate-800 py-5 sm:flex"
-    >
-      <div>
-        <h3 class="text-lg text-white sm:text-heading3">
-          {{ experience.position }}
-        </h3>
-        <p class="">{{ experience.company }}</p>
+  <section class="page-section">
+    <h2 class="subtitle">Work Experience</h2>
+    <div class="mt-4">
+      <div
+        v-for="experience in experiences"
+        :key="experience.id"
+        class="w-full items-end justify-between border-b border-slate-800 py-5 sm:flex"
+      >
+        <div>
+          <h3 class="text-lg text-white sm:text-heading3">
+            {{ experience.position }}
+          </h3>
+          <p class="">{{ experience.company }}</p>
+        </div>
+        <p class="">{{ experience.date }}</p>
       </div>
-      <p class="">{{ experience.date }}</p>
     </div>
-  </div>
+  </section>
 </template>
 
 <script>

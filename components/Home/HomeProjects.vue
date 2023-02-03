@@ -1,6 +1,6 @@
 <template>
   <p>to build apps like</p>
-  <div v-for="project in homeProjects" class="mt-10 sm:flex sm:items-center">
+  <div v-for="project in homeProjects" class="mt-4 sm:flex sm:items-center">
     <img
       :src="project.img"
       :alt="project.title"
