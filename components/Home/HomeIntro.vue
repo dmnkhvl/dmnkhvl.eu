@@ -1,13 +1,27 @@
 <template>
-  <div class="container">
-    <!--    <p class="mb-1 text-sm sm:mb-1 sm:text-base">{{ getGreeting() }}, I'm</p>-->
-    <h1 class="text-4xl font-bold capitalize text-white sm:text-[2.75rem]">
-      Dominik Havel
-    </h1>
-    <h2 class="text-[0.98rem] capitalize sm:mt-1">
-      web developer & ex-graphic designer.
-    </h2>
-    <p class="mt-2 max-w-xl"></p>
+  <div class="container sm:flex items-center gap-x-10 justify-between">
+    <img
+      src="/profilePic.jpg"
+      class="w-[120px] h-[120px] sm:w-[175px] sm:h-[175px] rounded-full object-cover"
+    />
+    <div>
+      <div>
+        <h1
+          class="mt-4 sm:mt-0 text-3xl sm:text-4xl font-bold capitalize text-white"
+        >
+          Dominik Havel
+        </h1>
+        <h2 class="sm:text-[0.98rem] capitalize sm:-mt-1">
+          web developer & ex-graphic designer.
+        </h2>
+      </div>
+      <p class="sm:text-[0.88rem] mt-2 text-white">
+        {{ getGreeting() }}, I'm a frontend developer with a love for both
+        sports and creating amazing user experiences. I bring projects to life
+        in a way that's not only functional, but also enjoyable for everyone
+        involved.
+      </p>
+    </div>
   </div>
 </template>
 <script lang="ts">
