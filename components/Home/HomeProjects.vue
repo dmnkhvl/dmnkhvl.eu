@@ -1,6 +1,8 @@
 <template>
+  <h2 class="subtitle mb-6">Recent projects</h2>
+
   <div v-for="project in homeProjects" class="mt-4 sm:flex sm:items-center">
-    <img
+    <nuxt-img
       :src="project.img"
       :alt="project.title"
       class="h-56 w-full rounded-xl object-cover sm:mr-10 sm:h-[150px] sm:w-[250px]"

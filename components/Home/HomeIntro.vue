@@ -1,6 +1,6 @@
 <template>
   <div class="container sm:flex items-center gap-x-10">
-    <img
+    <nuxt-img
       src="/profilePic.jpg"
       class="w-[120px] h-[120px] sm:w-[160px] sm:h-[160px] rounded-full object-cover"
     />

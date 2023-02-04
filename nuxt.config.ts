@@ -6,6 +6,7 @@ export default defineNuxtConfig({
     "@nuxtjs/i18n",
     "nuxt-icons",
     "@formkit/nuxt",
+    "@nuxt/image-edge",
   ],
   i18n: {
     // locales: ["en", "sk"],
@@ -22,6 +23,4 @@ export default defineNuxtConfig({
       },
     },
   },
-  // @ts-ignore
-  target: "static",
 });

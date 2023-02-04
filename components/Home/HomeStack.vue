@@ -12,7 +12,7 @@
           v-for="tech in stack"
           :key="tech.id"
         >
-          <img
+          <nuxt-img
             :src="tech.img"
             class="w-[18px] h-[18px] rounded-sm object-scale-down"
             :alt="tech.name"

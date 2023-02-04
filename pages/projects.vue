@@ -3,7 +3,7 @@
     <h1 class="title">Projects</h1>
     <PageInProgress />
     <div v-for="project in homeProjects" class="mt-4 sm:flex sm:items-center">
-      <img
+      <nuxt-img
         :src="project.img"
         :alt="project.title"
         class="h-56 w-full rounded-xl object-cover sm:mr-10 sm:h-[150px] sm:w-[250px]"
