@@ -1,5 +1,6 @@
 <template>
   <h1 class="title">dmnkhvl</h1>
+  <PageInProgress />
   <p class="my-4 max-w-xl text-gray">
     I'm Dominik, a
     <a class="link" @click="scrollTo('developer')"> web developer</a> from

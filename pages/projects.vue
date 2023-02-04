@@ -1,7 +1,7 @@
 <template>
   <main class="container">
     <h1 class="title">Projects</h1>
-    <p class="mt-2">This page is in progress..</p>
+    <PageInProgress />
     <div v-for="project in homeProjects" class="mt-4 sm:flex sm:items-center">
       <img
         :src="project.img"

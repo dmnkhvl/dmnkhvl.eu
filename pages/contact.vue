@@ -1,6 +1,7 @@
 <template>
   <main class="container">
     <h1 class="title">Contact</h1>
+    <PageInProgress />
     <p class="mt-2">This page is in progress..</p>
     <p class="my-4 max-w-xl text-paragraph text-gray">
       Feel free to drop me a line for any reason. Let's connect! I'm always down
