@@ -1,6 +1,6 @@
 <template>
   <div>
-    <p class="text-sm sm:mb-0 sm:text-base">I use this</p>
+    <p class="text-sm sm:mb-0 sm:text-basicText">I use this</p>
     <h3 class="subtitle mt-1">Technologies</h3>
     <div>
       <div class="mt-4 grid select-none grid-cols-2 gap-x-6 gap-y-1 text-white">
@@ -9,7 +9,6 @@
           :key="technology.id"
           class="col-span-1 row-span-1 flex items-center gap-x-2"
         >
-          <!--          <nuxt-icon :name="technology.icon"></nuxt-icon>-->
           <p>{{ technology.name }}</p>
         </div>
       </div>

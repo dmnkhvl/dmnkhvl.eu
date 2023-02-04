@@ -1,6 +1,6 @@
 <template>
   <div class="mt-6 sm:mt-0">
-    <p class="text-sm sm:mb-0 sm:text-base">and this</p>
+    <p class="text-sm sm:mb-0 sm:text-basicText">and this</p>
     <h3 class="subtitle mt-1">Tools</h3>
     <div>
       <div class="mt-4 grid select-none grid-cols-2 gap-x-6 gap-y-1 text-white">

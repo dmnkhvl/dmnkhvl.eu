@@ -25,6 +25,7 @@ module.exports = {
         heading2: ["1.875rem", "2.25rem"],
         heading3: ["1.5rem", "2rem"],
         paragraph: ["1rem", "1.5rem"],
+        basicText: ["0.88rem", "0.88rem"],
       },
       scale: {
         102: "1.02",

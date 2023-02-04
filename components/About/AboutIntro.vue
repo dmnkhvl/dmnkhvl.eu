@@ -1,6 +1,6 @@
 <template>
-  <h1 class="title">About me</h1>
-  <p class="my-4 max-w-xl text-paragraph text-gray">
+  <h1 class="title">dmnkhvl</h1>
+  <p class="my-4 max-w-xl text-gray">
     I'm Dominik, a
     <a class="link" @click="scrollTo('developer')"> web developer</a> from
     Bratislava, Slovakia. I have a passion for technology, sports and design.
@@ -10,6 +10,7 @@
     studies. My interest in web technologies really took off in college, where I
     began building more advanced web applications.
   </p>
+  <DownloadCV text="View Resume" />
 </template>
 
 <script>

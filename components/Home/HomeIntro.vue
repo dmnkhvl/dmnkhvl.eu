@@ -1,8 +1,8 @@
 <template>
-  <div class="container sm:flex items-center gap-x-10 justify-between">
+  <div class="container sm:flex items-center gap-x-10">
     <img
       src="/profilePic.jpg"
-      class="w-[120px] h-[120px] sm:w-[175px] sm:h-[175px] rounded-full object-cover"
+      class="w-[120px] h-[120px] sm:w-[160px] sm:h-[160px] rounded-full object-cover"
     />
     <div>
       <div>
@@ -11,7 +11,7 @@
         >
           Dominik Havel
         </h1>
-        <h2 class="sm:text-[0.98rem] capitalize sm:-mt-1">
+        <h2 class="sm:text-[0.98rem] capitalize sm:-mt-1 text-special">
           web developer & ex-graphic designer.
         </h2>
       </div>
@@ -20,6 +20,7 @@
         sports and creating amazing user experiences. I bring projects to life
         in a way that's not only functional, but also enjoyable for everyone
         involved.
+        <NuxtLink to="/about" class="link ml-1 text-xs"> More</NuxtLink>
       </p>
     </div>
   </div>
