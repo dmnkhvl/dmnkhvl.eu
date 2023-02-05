@@ -93,4 +93,9 @@ select{
     @apply mt-2 max-w-xl text-paragraph
 }
 
+.paragraph-heading{
+    @apply  leading-none text-special pt-10 underline underline-offset-4 decoration-special/20
+
+}
+
 

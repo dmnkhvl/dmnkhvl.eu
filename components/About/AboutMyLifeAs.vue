@@ -1,8 +1,7 @@
 <template>
   <section class="page-section">
     <h2 class="subtitle">My Life as</h2>
-    <h3 class="text-heading3 leading-none text-white pt-10" id="developer">
-      <a class="text-special" href="#developer" aria-hidden="true">#</a>
+    <h3 class="text-heading3 paragraph-heading" id="developer">
       Web developer
     </h3>
     <p class="paragraph">
@@ -29,8 +28,7 @@
         >Tailwind CSS</ExternalLink
       >.
     </p>
-    <h3 class="text-heading3 leading-none text-white pt-10" id="basketball">
-      <a class="text-special" href="#basketball" aria-hidden="true">#</a>
+    <h3 class="text-heading3 paragraph-heading" id="basketball">
       Basketball player
     </h3>
     <p class="paragraph">
@@ -43,10 +41,7 @@
       >.
     </p>
 
-    <h3 class="text-heading3 leading-none text-white pt-10" id="founder">
-      <a class="text-special" href="#founder" aria-hidden="true">#</a>
-      Founder
-    </h3>
+    <h3 class="text-heading3 paragraph-heading" id="founder">Founder</h3>
     <p class="paragraph">
       I founded and built a project about Slovak basketball, aiming to provide
       interesting interviews, current information, results, and statistics about
@@ -61,8 +56,7 @@
       >.
     </p>
 
-    <h3 class="text-heading3 leading-none text-white pt-10" id="designer">
-      <a class="text-special" href="#designer" aria-hidden="true">#</a>
+    <h3 class="text-heading3 paragraph-heading" id="designer">
       Graphic designer
     </h3>
     <p class="paragraph">
