@@ -1,6 +1,6 @@
 <template>
   <button @click="changeLanguage()" class="hover:text-special p-1">
-    {{ $i18n.locale }}
+    {{ $i18n.locale === "en" ? "sk" : "en" }}
   </button>
 </template>
 
