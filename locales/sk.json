@@ -20,5 +20,14 @@
   "founder": "Zakladateľ",
   "graphicDesigner": "Grafický dizajnér",
   "workExperience": "Pracovné skúsenosti",
-  "contactMsg": "Neváhajte mi napísať, veľmi rád sa porozprávam o hocičom. "
+  "contactMsg": "Neváhajte mi napísať, veľmi rád sa porozprávam o hocičom. ",
+  "recentProjects": "Posledné projekty",
+  "live": "Naživo",
+  "footerText": "© Dominik Havel, Bratislava, Slovensko",
+  "month": "mesiac",
+  "months": "mesiacov",
+  "months_alt": "mesiace",
+  "year": "rok",
+  "years_alt": "roky",
+  "years": "rokov"
 }

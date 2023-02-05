@@ -43,15 +43,30 @@ export default {
       const years = Math.floor(diffYears);
       const months = Math.floor(diffMonths % 12);
 
-      let yearString = years === 1 ? "year" : "years";
+      let yearString =
+        years === 1
+          ? this.$t("year")
+          : years < 5
+          ? this.$t("years_alt")
+          : this.$t("years");
 
       if (years >= 1 && months > 0) {
-        let monthString = months === 1 ? "month" : "months";
+        let monthString =
+          months === 1
+            ? this.$t("month")
+            : months < 5
+            ? this.$t("months_alt")
+            : this.$t("months");
         return years + " " + yearString + " " + months + " " + monthString;
       } else if (years >= 1) {
         return years + " " + yearString;
       } else {
-        let monthString = months === 1 ? "month" : "months";
+        let monthString =
+          months === 1
+            ? this.$t("month")
+            : months < 5
+            ? this.$t("months_alt")
+            : this.$t("months");
         return months + " " + monthString;
       }
     },

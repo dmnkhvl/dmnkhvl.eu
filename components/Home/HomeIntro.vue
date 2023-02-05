@@ -1,12 +1,10 @@
 <template>
   <div class="container items-center gap-x-10 sm:flex">
-    <div class="flex items-start justify-between">
-      <nuxt-img
-        src="/profilePic.jpg"
-        alt="profile-picture"
-        class="h-[120px] w-[120px] rounded-full object-cover sm:h-[160px] sm:w-[160px]"
-      />
-    </div>
+    <nuxt-img
+      src="/profilePic.jpg"
+      alt="profile-picture"
+      class="h-[120px] w-[120px] rounded-full object-cover sm:h-[160px] sm:w-[160px]"
+    />
 
     <div>
       <div>
@@ -19,18 +17,24 @@
           {{ $t("dh_subtitle") }}
         </h2>
       </div>
-      <p class="mt-2">{{ getGreeting() }}, {{ $t("homeIntro") }}</p>
+      <p class="mt-2">{{ getGreeting($i18n.locale) }}, {{ $t("homeIntro") }}</p>
     </div>
   </div>
 </template>
 <script lang="ts">
 export default {
   methods: {
-    getGreeting() {
+    getGreeting(lang: string) {
       const hour = new Date().getHours();
-      if (hour >= 6 && hour < 12) return "Good morning";
-      else if (hour >= 12 && hour < 18) return "Good afternoon";
-      return "Good evening";
+      if (lang === "sk") {
+        if (hour >= 6 && hour < 12) return "Dobré ráno";
+        else if (hour >= 12 && hour < 18) return "Dobrý deň";
+        return "Dobrý večer";
+      } else {
+        if (hour >= 6 && hour < 12) return "Good morning";
+        else if (hour >= 12 && hour < 18) return "Good afternoon";
+        return "Good evening";
+      }
     },
   },
 };

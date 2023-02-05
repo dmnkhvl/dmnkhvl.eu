@@ -1,8 +1,8 @@
 <template>
   <footer
-    class="hidden sm:flex mt-20 flex flex-row gap-x-10 items-center justify-center h-[60px]"
+    class="mt-20 flex hidden h-[60px] flex-row items-center justify-center gap-x-10 sm:flex"
   >
-    <p>© Dominik Havel, Bratislava, Slovakia</p>
+    <p>{{ $t("footerText") }}</p>
   </footer>
 </template>
 

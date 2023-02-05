@@ -27,17 +27,8 @@
         <NuxtLink to="/projects" class="nav-link">
           {{ $t("projects") }}</NuxtLink
         >
-
         <NuxtLink to="/contact" class="nav-link"> {{ $t("contact") }}</NuxtLink>
-        <form class="sm:hidden">
-          <select
-            class="appearance-none bg-transparent text-white/40"
-            v-model="$i18n.locale"
-          >
-            <option value="en" class="">en</option>
-            <option value="sk">sk</option>
-          </select>
-        </form>
+        <LanguageSelect class="sm:hidden" />
       </nav>
       <SocialsBar class="hidden sm:flex" />
     </div>

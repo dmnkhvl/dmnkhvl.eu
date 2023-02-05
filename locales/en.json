@@ -20,5 +20,14 @@
   "founder": "Founder",
   "graphicDesigner": "Graphic designer",
   "workExperience": "Work Experience",
-  "contactMsg": "Feel free to drop me a line for any reason. Let's connect! I'm always down for a good conversation."
+  "contactMsg": "Feel free to drop me a line for any reason. Let's connect! I'm always down for a good conversation.",
+  "recentProjects": "Recent projects",
+  "live": "Live",
+  "footerText": "© Dominik Havel, Bratislava, Slovakia",
+  "month": "month",
+  "months": "months",
+  "months_alt": "months",
+  "year": "year",
+  "years": "years",
+  "years_alt": "years"
 }
