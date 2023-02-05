@@ -9,7 +9,6 @@
     <ExternalLink href="https://twitter.com/dmnkhvl"
       ><nuxt-icon name="twitter" class="text-xl text-white"
     /></ExternalLink>
-    <LanguageSelect class="hidden sm:flex" />
   </div>
 </template>
 

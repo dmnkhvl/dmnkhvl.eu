@@ -30,7 +30,10 @@
         <NuxtLink to="/contact" class="nav-link"> {{ $t("contact") }}</NuxtLink>
         <LanguageSelect class="sm:hidden" />
       </nav>
-      <SocialsBar class="hidden sm:flex" />
+      <div class="flex items-center">
+        <SocialsBar class="hidden sm:flex" />
+        <LanguageSelect class="ml-6 hidden sm:flex" />
+      </div>
     </div>
   </div>
 </template>
