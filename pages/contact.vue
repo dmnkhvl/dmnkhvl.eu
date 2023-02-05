@@ -1,13 +1,12 @@
 <template>
   <main class="container">
-    <h1 class="title">Contact</h1>
+    <h1 class="title">{{ $t("contact") }}</h1>
     <PageInProgress />
-    <p class="my-4 max-w-xl text-paragraph text-gray">
-      Feel free to drop me a line for any reason. Let's connect! I'm always down
-      for a good conversation.
+    <p class="text-paragraph text-gray my-4 max-w-xl">
+      {{ $t("contactMsg") }}
     </p>
     <a href="mailto:dev@dmnkhvl.eu" class="link">dev@dmnkhvl.eu</a>
-    <SocialsBar class="flex mt-8" />
+    <SocialsBar class="mt-8 flex" />
   </main>
 </template>
 <script setup>

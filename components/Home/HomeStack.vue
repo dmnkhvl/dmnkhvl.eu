@@ -2,8 +2,7 @@
   <div>
     <h2 class="subtitle mt-1">tech stack</h2>
     <p class="mt-2 max-w-lg">
-      Had the chance to work with multiple programming languages and
-      technologies, but my current favorites are these:
+      {{ $t("homeTechStackText") }}
     </p>
     <div>
       <div class="mt-6 grid grid-cols-2 gap-2 sm:text-lg">
@@ -19,9 +18,9 @@
           />
           <p class="text-white">{{ tech.name }}</p>
         </div>
-        <NuxtLink to="/about" class="link text-sm sm:text-base"
-          >See all</NuxtLink
-        >
+        <NuxtLink to="/about" class="link text-sm sm:text-base">{{
+          $t("seeAll")
+        }}</NuxtLink>
       </div>
     </div>
   </div>

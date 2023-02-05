@@ -1,10 +1,13 @@
 <template>
   <div class="container items-center gap-x-10 sm:flex">
-    <nuxt-img
-      src="/profilePic.jpg"
-      alt="profile-picture"
-      class="h-[120px] w-[120px] rounded-full object-cover sm:h-[160px] sm:w-[160px]"
-    />
+    <div class="flex items-start justify-between">
+      <nuxt-img
+        src="/profilePic.jpg"
+        alt="profile-picture"
+        class="h-[120px] w-[120px] rounded-full object-cover sm:h-[160px] sm:w-[160px]"
+      />
+    </div>
+
     <div>
       <div>
         <h1
@@ -13,15 +16,10 @@
           Dominik Havel
         </h1>
         <h2 class="text-special capitalize sm:-mt-1 sm:text-[0.98rem]">
-          web developer & ex-graphic designer.
+          {{ $t("dh_subtitle") }}
         </h2>
       </div>
-      <p class="mt-2">
-        {{ getGreeting() }}, I'm a frontend developer with a love for both
-        sports and creating amazing user experiences. I bring projects to life
-        in a way that's not only functional, but also enjoyable for everyone
-        involved.
-      </p>
+      <p class="mt-2">{{ getGreeting() }}, {{ $t("homeIntro") }}</p>
     </div>
   </div>
 </template>

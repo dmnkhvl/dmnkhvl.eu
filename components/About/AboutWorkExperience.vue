@@ -1,6 +1,6 @@
 <template>
   <section class="page-section">
-    <h2 class="subtitle">Work Experience</h2>
+    <h2 class="subtitle">{{ $t("workExperience") }}</h2>
     <div class="mt-4">
       <div
         v-for="experience in experiences"

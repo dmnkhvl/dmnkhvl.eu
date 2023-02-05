@@ -1,9 +1,9 @@
 <template>
   <section class="page-section">
-    <h2 class="subtitle">Skills</h2>
+    <h2 class="subtitle">{{ $t("skills") }}</h2>
     <div class="mt-10 grid grid-cols-1 gap-y-6 sm:grid-cols-2 sm:gap-y-10">
       <div>
-        <h3 class="text-gray text-lg font-medium">Languages</h3>
+        <h3 class="text-gray text-lg font-medium">{{ $t("languages") }}</h3>
         <div class="mt-2 grid grid-cols-2">
           <div
             class="flex items-center gap-x-1 text-white"
@@ -11,17 +11,11 @@
             :key="lang.id"
           >
             <p>{{ lang.name }}</p>
-            <div class="flex items-center gap-x-1">
-              <!--              <div-->
-              <!--                v-for="n in lang.skill"-->
-              <!--                class="w-[5px] h-[5px] rounded-full bg-special"-->
-              <!--              />-->
-            </div>
           </div>
         </div>
       </div>
       <div>
-        <h3 class="text-gray text-lg font-medium">Frameworks/libs</h3>
+        <h3 class="text-gray text-lg font-medium">{{ $t("frameworkLibs") }}</h3>
         <div class="mt-2 grid grid-cols-2 text-white">
           <p class="" v-for="lib in javascriptLibs" :key="lib.id">
             {{ lib.name }}
@@ -29,7 +23,7 @@
         </div>
       </div>
       <div>
-        <h3 class="text-gray text-lg font-medium">Dev tools</h3>
+        <h3 class="text-gray text-lg font-medium">{{ $t("devTools") }}</h3>
         <div class="mt-2 grid grid-cols-2 text-white">
           <p class="" v-for="tool in devTools" :key="tool.id">
             {{ tool.name }}
@@ -37,7 +31,7 @@
         </div>
       </div>
       <div>
-        <h3 class="text-gray text-lg font-medium">Design</h3>
+        <h3 class="text-gray text-lg font-medium">{{ $t("design") }}</h3>
         <div class="mt-2 grid grid-cols-2 text-white">
           <p class="" v-for="tool in design" :key="tool.id">
             {{ tool.name }}

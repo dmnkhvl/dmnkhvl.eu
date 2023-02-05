@@ -1,8 +1,8 @@
 <template>
   <section class="page-section">
-    <h2 class="subtitle">Life as</h2>
+    <h2 class="subtitle">{{ $t("lifeAs") }}</h2>
     <h3 class="text-heading3 paragraph-heading" id="developer">
-      Web developer
+      {{ $t("webDeveloper") }}
     </h3>
     <p class="paragraph">
       I learned about web development, including technologies such as
@@ -29,7 +29,7 @@
       >.
     </p>
     <h3 class="text-heading3 paragraph-heading" id="basketball">
-      Basketball player
+      {{ $t("basketballPlayer") }}
     </h3>
     <p class="paragraph">
       I have been playing basketball since the age of nine. Over the years, I
@@ -41,7 +41,9 @@
       >.
     </p>
 
-    <h3 class="text-heading3 paragraph-heading" id="founder">Founder</h3>
+    <h3 class="text-heading3 paragraph-heading" id="founder">
+      {{ $t("founder") }}
+    </h3>
     <p class="paragraph">
       I founded and built a project about Slovak basketball, aiming to provide
       interesting interviews, current information, results, and statistics about
@@ -57,7 +59,7 @@
     </p>
 
     <h3 class="text-heading3 paragraph-heading" id="designer">
-      Graphic designer
+      {{ $t("graphicDesigner") }}
     </h3>
     <p class="paragraph">
       At the age of 13, I discovered my passion for graphic design. With years

@@ -9,19 +9,4 @@ export default defineNuxtConfig({
     "@formkit/nuxt",
     "@nuxt/image-edge",
   ],
-  i18n: {
-    // locales: ["en", "sk"],
-    // defaultLocale: "sk",
-    vueI18n: {
-      locale: "en",
-      messages: {
-        en: {
-          welcome: "Welcome",
-        },
-        sk: {
-          welcome: "Vitajte",
-        },
-      },
-    },
-  },
 });

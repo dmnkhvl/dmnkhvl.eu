@@ -1,5 +1,5 @@
 <template>
-  <h1 class="title">about me</h1>
+  <h1 class="title">{{ $t("aboutMe") }}</h1>
   <p class="text-gray my-4 max-w-xl">
     I'm Dominik, a
     <a class="link" @click="scrollTo('developer')"> web developer</a> from
@@ -10,7 +10,7 @@
     studies. My interest in web technologies really took off in college, where I
     began building more advanced web applications.
   </p>
-  <DownloadCV text="View Resume" />
+  <DownloadCV />
 </template>
 
 <script>
