@@ -16,12 +16,12 @@
           web developer & ex-graphic designer.
         </h2>
       </div>
-      <p class="sm:text-[0.88rem] mt-2 text-white">
+      <p class="mt-2 text-white">
         {{ getGreeting() }}, I'm a frontend developer with a love for both
         sports and creating amazing user experiences. I bring projects to life
         in a way that's not only functional, but also enjoyable for everyone
         involved.
-        <NuxtLink to="/about" class="link ml-1 text-xs"> More</NuxtLink>
+        <NuxtLink to="/about" class="link ml-1 text-sm"> More</NuxtLink>
       </p>
     </div>
   </div>

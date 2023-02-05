@@ -17,7 +17,7 @@
             class="w-[18px] h-[18px] rounded-sm object-scale-down"
             :alt="tech.name"
           />
-          <p class="text-white text-[0.95rem]">{{ tech.name }}</p>
+          <p class="text-white">{{ tech.name }}</p>
         </div>
         <NuxtLink to="/about" class="link text-sm">See all</NuxtLink>
       </div>

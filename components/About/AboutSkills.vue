@@ -1,47 +1,47 @@
 <template>
-  <section
-    class="page-section grid grid-cols-1 gap-y-6 sm:grid-cols-2 sm:gap-y-10"
-  >
-    <div>
-      <h2 class="text-white font-medium text-lg">Languages</h2>
-      <div class="mt-2 grid grid-cols-2">
-        <div
-          class="flex gap-x-1 items-center"
-          v-for="lang in sortedLanguages"
-          :key="lang.id"
-        >
-          <p>{{ lang.name }}</p>
-          <div class="flex items-center gap-x-1">
-            <div
-              v-for="n in lang.skill"
-              class="w-[5px] h-[5px] rounded-full bg-special"
-            />
+  <section class="page-section">
+    <div class="grid grid-cols-1 gap-y-6 sm:grid-cols-2 sm:gap-y-10">
+      <div>
+        <h3 class="text-gray font-medium text-lg">Languages</h3>
+        <div class="mt-2 grid grid-cols-2">
+          <div
+            class="flex gap-x-1 items-center text-white"
+            v-for="lang in sortedLanguages"
+            :key="lang.id"
+          >
+            <p>{{ lang.name }}</p>
+            <div class="flex items-center gap-x-1">
+              <!--              <div-->
+              <!--                v-for="n in lang.skill"-->
+              <!--                class="w-[5px] h-[5px] rounded-full bg-special"-->
+              <!--              />-->
+            </div>
           </div>
         </div>
       </div>
-    </div>
-    <div>
-      <h2 class="text-white font-medium text-lg">Frameworks/libs</h2>
-      <div class="mt-2 grid grid-cols-2">
-        <p class="" v-for="lib in javascriptLibs" :key="lib.id">
-          {{ lib.name }}
-        </p>
+      <div>
+        <h3 class="text-gray font-medium text-lg">Frameworks/libs</h3>
+        <div class="mt-2 grid grid-cols-2 text-white">
+          <p class="" v-for="lib in javascriptLibs" :key="lib.id">
+            {{ lib.name }}
+          </p>
+        </div>
       </div>
-    </div>
-    <div>
-      <h2 class="text-white font-medium text-lg">Dev tools</h2>
-      <div class="mt-2 grid grid-cols-2">
-        <p class="" v-for="tool in devTools" :key="tool.id">
-          {{ tool.name }}
-        </p>
+      <div>
+        <h3 class="text-gray font-medium text-lg">Dev tools</h3>
+        <div class="mt-2 grid grid-cols-2 text-white">
+          <p class="" v-for="tool in devTools" :key="tool.id">
+            {{ tool.name }}
+          </p>
+        </div>
       </div>
-    </div>
-    <div>
-      <h2 class="text-white font-medium text-lg">Design</h2>
-      <div class="mt-2 grid grid-cols-2">
-        <p class="" v-for="tool in design" :key="tool.id">
-          {{ tool.name }}
-        </p>
+      <div>
+        <h3 class="text-gray font-medium text-lg">Design</h3>
+        <div class="mt-2 grid grid-cols-2 text-white">
+          <p class="" v-for="tool in design" :key="tool.id">
+            {{ tool.name }}
+          </p>
+        </div>
       </div>
     </div>
   </section>
@@ -159,6 +159,10 @@ export default {
         {
           id: 10,
           name: "SCSS",
+        },
+        {
+          id: 10,
+          name: "Laravel",
         },
       ],
       devTools: [

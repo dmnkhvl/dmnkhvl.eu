@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 body{
-    @apply bg-black text-gray text-[0.88rem]
+    @apply bg-black text-gray text-[1rem]
 }
 
 body::before{
