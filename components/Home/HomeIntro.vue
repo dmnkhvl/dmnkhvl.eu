@@ -1,27 +1,26 @@
 <template>
-  <div class="container sm:flex items-center gap-x-10">
+  <div class="container items-center gap-x-10 sm:flex">
     <nuxt-img
       src="/profilePic.jpg"
       alt="profile-picture"
-      class="w-[120px] h-[120px] sm:w-[160px] sm:h-[160px] rounded-full object-cover"
+      class="h-[120px] w-[120px] rounded-full object-cover sm:h-[160px] sm:w-[160px]"
     />
     <div>
       <div>
         <h1
-          class="mt-4 sm:mt-0 text-3xl sm:text-4xl font-bold capitalize text-white"
+          class="mt-4 text-3xl font-bold capitalize text-white sm:mt-0 sm:text-4xl"
         >
           Dominik Havel
         </h1>
-        <h2 class="sm:text-[0.98rem] capitalize sm:-mt-1 text-special">
+        <h2 class="text-special capitalize sm:-mt-1 sm:text-[0.98rem]">
           web developer & ex-graphic designer.
         </h2>
       </div>
-      <p class="mt-2 text-white">
+      <p class="mt-2">
         {{ getGreeting() }}, I'm a frontend developer with a love for both
         sports and creating amazing user experiences. I bring projects to life
         in a way that's not only functional, but also enjoyable for everyone
         involved.
-        <NuxtLink to="/about" class="link ml-1 text-sm"> More</NuxtLink>
       </p>
     </div>
   </div>

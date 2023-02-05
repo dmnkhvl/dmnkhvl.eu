@@ -1,6 +1,6 @@
 <template>
   <section class="page-section">
-    <h2 class="subtitle">My Life as</h2>
+    <h2 class="subtitle">Life as</h2>
     <h3 class="text-heading3 paragraph-heading" id="developer">
       Web developer
     </h3>

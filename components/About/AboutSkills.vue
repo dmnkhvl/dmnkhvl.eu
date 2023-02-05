@@ -1,11 +1,12 @@
 <template>
   <section class="page-section">
-    <div class="grid grid-cols-1 gap-y-6 sm:grid-cols-2 sm:gap-y-10">
+    <h2 class="subtitle">Skills</h2>
+    <div class="mt-10 grid grid-cols-1 gap-y-6 sm:grid-cols-2 sm:gap-y-10">
       <div>
-        <h3 class="text-gray font-medium text-lg">Languages</h3>
+        <h3 class="text-gray text-lg font-medium">Languages</h3>
         <div class="mt-2 grid grid-cols-2">
           <div
-            class="flex gap-x-1 items-center text-white"
+            class="flex items-center gap-x-1 text-white"
             v-for="lang in sortedLanguages"
             :key="lang.id"
           >
@@ -20,7 +21,7 @@
         </div>
       </div>
       <div>
-        <h3 class="text-gray font-medium text-lg">Frameworks/libs</h3>
+        <h3 class="text-gray text-lg font-medium">Frameworks/libs</h3>
         <div class="mt-2 grid grid-cols-2 text-white">
           <p class="" v-for="lib in javascriptLibs" :key="lib.id">
             {{ lib.name }}
@@ -28,7 +29,7 @@
         </div>
       </div>
       <div>
-        <h3 class="text-gray font-medium text-lg">Dev tools</h3>
+        <h3 class="text-gray text-lg font-medium">Dev tools</h3>
         <div class="mt-2 grid grid-cols-2 text-white">
           <p class="" v-for="tool in devTools" :key="tool.id">
             {{ tool.name }}
@@ -36,7 +37,7 @@
         </div>
       </div>
       <div>
-        <h3 class="text-gray font-medium text-lg">Design</h3>
+        <h3 class="text-gray text-lg font-medium">Design</h3>
         <div class="mt-2 grid grid-cols-2 text-white">
           <p class="" v-for="tool in design" :key="tool.id">
             {{ tool.name }}

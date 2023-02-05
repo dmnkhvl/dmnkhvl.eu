@@ -1,7 +1,6 @@
 <template>
   <h1 class="title">about me</h1>
-  <PageInProgress />
-  <p class="my-4 max-w-xl text-gray">
+  <p class="text-gray my-4 max-w-xl">
     I'm Dominik, a
     <a class="link" @click="scrollTo('developer')"> web developer</a> from
     Bratislava, Slovakia. I have a passion for technology, sports and design.

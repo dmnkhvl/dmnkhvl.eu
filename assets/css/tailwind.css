@@ -2,100 +2,101 @@
 @tailwind components;
 @tailwind utilities;
 
-body{
-    @apply bg-black text-gray text-[1rem]
+body {
+  @apply text-gray bg-black text-[1rem];
 }
 
-body::before{
-    width: 100%;
-    height: 80%;
-    content: '';
-    position: fixed;
-    background: radial-gradient(75.61% 75.61% at 50% 24.39%, rgb(16, 15, 15) 0%, rgb(12, 13, 12) 100%);
-    z-index: -1;
+body::before {
+  width: 100%;
+  height: 80%;
+  content: "";
+  position: fixed;
+  background: radial-gradient(
+    75.61% 75.61% at 50% 24.39%,
+    rgb(16, 15, 15) 0%,
+    rgb(12, 13, 12) 100%
+  );
+  z-index: -1;
 }
 
 @font-face {
-    font-family: "DM Sans";
-    src: url("assets/fonts/DMSans-Regular.ttf");
-    font-weight: 400;
+  font-family: "DM Sans";
+  src: url("assets/fonts/DMSans-Regular.ttf");
+  font-weight: 400;
 }
 
 @font-face {
-    font-family: "DM Sans";
-    src: url("assets/fonts/DMSans-Medium.ttf");
+  font-family: "DM Sans";
+  src: url("assets/fonts/DMSans-Medium.ttf");
 
-    font-weight: 500;
+  font-weight: 500;
 }
 @font-face {
-    font-family: "DM Sans";
-    src: url("assets/fonts/DMSans-Bold.ttf");
-    font-weight: 700;
+  font-family: "DM Sans";
+  src: url("assets/fonts/DMSans-Bold.ttf");
+  font-weight: 700;
 }
 
 ::-moz-selection {
-    /* Code for Firefox */
-    color: #fff;
-    background: #00dc82;
+  /* Code for Firefox */
+  color: #fff;
+  background: #00dc82;
 }
 
 ::selection {
-    color: #fff;
-    background: #00dc82;
+  color: #fff;
+  background: #00dc82;
 }
 
-select{
-    /*@apply bg-*/
+select {
+  /*@apply bg-*/
 }
 
-.bg-blur{
-    @apply  backdrop-blur-md
+.bg-blur {
+  @apply backdrop-blur-md;
 }
 
-.container{
-    @apply mx-auto max-w-[660px] px-8 lg:px-2
+.container {
+  @apply mx-auto max-w-[660px] px-8 lg:px-2;
 }
 
-.page-section{
-    @apply mt-12 sm:mt-16
+.page-section {
+  @apply mt-28 sm:mt-28;
 }
 
-.title{
-    @apply  text-4xl font-bold capitalize text-white md:text-[2.75rem]
+.title {
+  @apply text-4xl font-bold capitalize text-white md:text-[2.75rem];
 }
 
-.subtitle{
-    @apply text-2xl font-bold capitalize text-white sm:text-[1.875rem]
+.subtitle {
+  @apply text-2xl font-bold capitalize text-white sm:text-[1.875rem];
 }
 
-.label{
-    @apply select-none rounded-lg bg-special/10 px-2 py-1 text-xs text-special border border-special/5
+.label {
+  @apply bg-special/10 text-special border-special/5 select-none rounded-lg border px-2 py-1 text-xs;
 }
 
-.link{
-    @apply text-white decoration-white/20 underline underline-offset-4 hover:decoration-white  decoration-dotted transition duration-300 ease-in-out active:decoration-white hover:decoration-solid hover:text-special hover:decoration-special
+.link {
+  @apply hover:text-special hover:decoration-special text-white underline decoration-white/20  decoration-dotted underline-offset-4 transition duration-300 ease-in-out hover:decoration-white hover:decoration-solid active:decoration-white;
 }
 
-.nav-link{
-    @apply text-white decoration-white/20 underline underline-offset-8 hover:decoration-special hover:text-special decoration-dotted hover:decoration-solid transition duration-300 ease-in-out
+.nav-link {
+  @apply hover:decoration-special hover:text-special text-white underline decoration-white/20 decoration-dotted underline-offset-8 transition duration-300 ease-in-out hover:decoration-solid;
 }
 
-.btn{
-    @apply py-1 px-3 rounded-md hover:drop-shadow-xl ;
+.btn {
+  @apply rounded-md py-1 px-3 hover:drop-shadow-xl;
 }
 
-.btn-primary{
-    @apply bg-white/80;
-    background: linear-gradient(88.68deg, #0ad27d -36.99%, #6aecb8 111.2%);
+.btn-primary {
+  @apply bg-white/80;
+  background: linear-gradient(88.68deg, #0ad27d -36.99%, #6aecb8 111.2%);
 }
 
-.paragraph{
-    @apply mt-2 max-w-xl text-paragraph
+.paragraph {
+  @apply text-paragraph mt-2 max-w-xl;
 }
 
-.paragraph-heading{
-    @apply  leading-none text-special pt-10 underline underline-offset-4 decoration-special/20
-
+.paragraph-heading {
+  @apply text-special decoration-special/20 pt-10 leading-none underline underline-offset-4;
 }
-
-
