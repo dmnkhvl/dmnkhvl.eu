@@ -69,7 +69,7 @@ select{
 }
 
 .label{
-    @apply select-none rounded-lg bg-alt/5 px-2 py-1 text-xs text-alt border border-alt/20 border-dotted
+    @apply select-none rounded-lg bg-special/10 px-2 py-1 text-xs text-special border border-special/5
 }
 
 .link{
