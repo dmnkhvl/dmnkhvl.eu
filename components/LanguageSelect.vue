@@ -1,11 +1,17 @@
 <template>
-  <form>
-    <select
-      class="appearance-none bg-transparent text-white/40"
-      v-model="$i18n.locale"
-    >
-      <option value="en" class="">en</option>
-      <option value="sk">sk</option>
-    </select>
-  </form>
+  <button @click="changeLanguage()" class="hover:text-special p-1">
+    {{ $i18n.locale }}
+  </button>
 </template>
+
+<script>
+export default {
+  methods: {
+    changeLanguage() {
+      if (this.$i18n.locale === "en") {
+        this.$i18n.locale = "sk";
+      } else this.$i18n.locale = "en";
+    },
+  },
+};
+</script>
