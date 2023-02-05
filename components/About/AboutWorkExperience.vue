@@ -24,10 +24,10 @@
   </section>
 </template>
 
-<script>
+<script lang="ts">
 export default {
   methods: {
-    countMonths(startDate, endDate) {
+    countMonths(startDate: string, endDate: string): string {
       if (endDate === "") {
         endDate = new Date().toISOString().split("T")[0];
       }
