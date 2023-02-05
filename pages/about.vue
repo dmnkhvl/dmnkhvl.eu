@@ -2,8 +2,8 @@
   <main class="container">
     <AboutIntro />
     <AboutSkills />
-    <AboutWorkExperience />
     <AboutMyLifeAs />
+    <AboutWorkExperience />
   </main>
 </template>
 <script></script>
