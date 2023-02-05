@@ -17,7 +17,7 @@
           <p class="text-white">
             {{ countMonths(experience.startDate, experience.endDate) }}
           </p>
-          <p class="text-sm">{{ experience.date }}</p>
+          <p class="sm:text-sm">{{ experience.date }}</p>
         </div>
       </div>
     </div>
