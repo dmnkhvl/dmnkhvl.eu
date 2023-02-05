@@ -5,7 +5,7 @@
       <div
         v-for="experience in experiences"
         :key="experience.id"
-        class="w-full items-end justify-between border-b border-slate-800 py-5 sm:flex"
+        class="flex w-full items-end justify-between border-b border-slate-800 py-5"
       >
         <div>
           <h3 class="text-lg text-white sm:text-lg">
@@ -13,7 +13,7 @@
           </h3>
           <p class="text-sm">{{ experience.company }}</p>
         </div>
-        <div class="flex flex-col items-end justify-between">
+        <div class="mt-2 flex flex-col items-end text-xs sm:mt-0 sm:text-base">
           <p class="text-white">
             {{ countMonths(experience.startDate, experience.endDate) }}
           </p>
@@ -93,7 +93,7 @@ export default {
         },
         {
           id: 4,
-          company: "",
+          company: "Freelance",
           startDate: "2015-01-01",
           endDate: "2021-12-01",
           date: "2015 - 2022",
