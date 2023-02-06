@@ -79,7 +79,7 @@ select {
 }
 
 .link {
-  @apply hover:text-special hover:decoration-special text-white underline decoration-white/20  decoration-dotted underline-offset-4 transition duration-300 ease-in-out hover:decoration-white hover:decoration-solid active:decoration-white;
+  @apply hover:text-special hover:decoration-special text-white underline decoration-white/20  decoration-dotted underline-offset-4 transition duration-300 ease-in-out  hover:decoration-solid active:decoration-white;
 }
 
 .nav-link {

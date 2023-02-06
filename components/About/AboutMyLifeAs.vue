@@ -125,7 +125,7 @@
         zanikla značka basketlab a pokračovalo sa pod hlavičkou slovakbasket.
       </p>
     </div>
-    <div v-if="$i18n.locale === 'en'">
+    <div v-if="$i18n.locale === 'en'" class="mb-10">
       <h3 class="text-heading3 paragraph-heading" id="designer">
         {{ $t("graphicDesigner") }}
       </h3>
@@ -142,7 +142,7 @@
         >, and animation.
       </p>
     </div>
-    <div v-else>
+    <div v-else class="mb-10">
       <h3 class="text-heading3 paragraph-heading" id="designer">
         {{ $t("graphicDesigner") }}
       </h3>
@@ -159,6 +159,12 @@
         a animáciou.
       </p>
     </div>
+    <nuxt-link
+      to="/about"
+      class="bg-special rounded-xl px-4 py-2 text-sm font-medium text-black transition duration-300 ease-in-out hover:text-white hover:ring-2 hover:ring-white"
+    >
+      {{ $t("fullstory") }}
+    </nuxt-link>
   </section>
 </template>
 
