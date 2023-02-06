@@ -1,13 +1,7 @@
-<template>
-  <nav class="py-10 flex justify-between items-center">
-    <ul>
-      <li class="text-lg text-gray"><p>dmnkhvl</p></li>
-    </ul>
-  </nav>
-</template>
+<template></template>
 
 <script>
-export default {}
+export default {};
 </script>
 
 <style lang="scss" scoped></style>
