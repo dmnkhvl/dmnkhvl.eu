@@ -20,7 +20,7 @@
           <nuxt-icon
             name="home"
             class="text-2xl transition duration-300 ease-in-out"
-            aria-label="mobile-home-icon"
+            aria-label="home"
           />
         </NuxtLink>
         <NuxtLink to="/about" class="nav-link"> {{ $t("about") }} </NuxtLink>
