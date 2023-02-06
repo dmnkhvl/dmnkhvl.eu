@@ -23,18 +23,20 @@ body::before {
   font-family: "DM Sans";
   src: url("assets/fonts/DMSans-Regular.ttf");
   font-weight: 400;
+  font-display: swap;
 }
 
 @font-face {
   font-family: "DM Sans";
   src: url("assets/fonts/DMSans-Medium.ttf");
-
+  font-display: swap;
   font-weight: 500;
 }
 @font-face {
   font-family: "DM Sans";
   src: url("assets/fonts/DMSans-Bold.ttf");
   font-weight: 700;
+  font-display: swap;
 }
 
 ::-moz-selection {
