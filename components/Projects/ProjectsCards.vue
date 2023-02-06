@@ -1,5 +1,8 @@
 <template>
-  <div v-for="project in homeProjects" class="mt-4 sm:flex sm:items-center">
+  <div
+    v-for="project in homeProjects"
+    class="mb-24 sm:mb-10 sm:flex sm:items-center"
+  >
     <nuxt-img
       :src="project.img"
       :alt="project.title"
