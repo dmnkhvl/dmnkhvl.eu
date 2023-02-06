@@ -5,6 +5,11 @@
         <h3 class="py-6 text-4xl font-bold leading-9 text-white md:text-5xl">
           Ako sa z basketbalistu stal web developer
         </h3>
+        <nuxt-img
+          src="/basketball.jpg"
+          alt="basketball-picture"
+          class="max-w-full rounded-2xl"
+        ></nuxt-img>
         <div>
           <h2 class="paragraph-heading text-heading3">Basketbal</h2>
           <p class="mt-2 leading-7 md:pr-10">
