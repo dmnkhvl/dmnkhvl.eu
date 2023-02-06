@@ -1,59 +1,65 @@
 <template>
-  <div class="min-h-screen bg-black pb-10 text-white">
-    <div class="mx-auto max-w-screen-sm px-8 md:px-2">
-      <PageHeader />
-
+  <div class="min-h-screen bg-black pb-10">
+    <div class="container">
       <main class="">
-        <PostHeader />
+        <h3 class="py-6 text-4xl font-bold leading-9 text-white md:text-5xl">
+          Ako sa z basketbalistu stal web developer
+        </h3>
         <div>
-          <StoryChapter title="Basketball"></StoryChapter>
+          <h2 class="paragraph-heading text-heading3">Basketbal</h2>
           <p class="mt-2 leading-7 md:pr-10">
             Basketbalu sa venujem od deviatich rokov. Za túto dobu som si stihol
             zahrať niekoľko Majstrovstiev Slovenska, pozbierať desiatky medailí
             a obliecť si reprezentačný dres. V ňom som bol na viacerých
             turnajoch, Majstrovstvách Európy či dokonca
-            <SingleLink
-              text="Majstrovstvách Sveta"
-              link="https://www.fiba.basketball/3x3U23WC/2022"
-            />.
+            <ExternalLink href="https://www.fiba.basketball/3x3U23WC/2022"
+              >Majstrovstvách Sveta</ExternalLink
+            >.
           </p>
           <ArticlesAboutMe class="mb-10" />
-          <StoryChapter title="Hry a webnode"></StoryChapter>
+          <h2 class="paragraph-heading text-heading3">Hry a webnode</h2>
           <p class="mt-2 mb-10 leading-7 md:pr-10">
             Popri tom, ako som prechádzal mládežníckymi kategóriami, som trávil
             voľný čas aj na počítači. Začalo to na základke, hraním hier. Písal
             sa rok 2009 a ja som začal tvoriť jednoduché webstránky cez
-            <SingleLink text="webnode.sk" link="https://www.webnode.com/sk/" />
-            a začal zisťovať čo je <TextLabel text="html" /> a
-            <TextLabel text="css" />. Prišiel čas, kedy som objavil
-            <SingleLink text="WordPress" link="https://sk.wordpress.org/" />,
-            ktorému som vtedy nerozumel. Postupne mi začal dávať zmysel, a
+            <ExternalLink href="https://www.webnode.com/sk/"
+              >webnode.sk</ExternalLink
+            >
+            a začal zisťovať čo je <span class="text-special"> html </span> a
+            <span class="text-special"> css </span>. Prišiel čas, kedy som
+            objavil
+            <ExternalLink href="https://sk.wordpress.org/"
+              >WordPress</ExternalLink
+            >, ktorému som vtedy nerozumel. Postupne mi začal dávať zmysel, a
             stránky začali vyzerať krajšie a hlavne boli funkčnejšie.
           </p>
-          <StoryChapter title="Moja prvá brigáda"></StoryChapter>
+          <h2 class="paragraph-heading text-heading3">Moja prvá brigáda</h2>
           <p class="mt-2 mb-10 leading-7 md:pr-10">
             Na tvorbu bannerov a rôznych koláži som používal
-            <TextLabel text="CorelDraw" /> z ktorého som prešiel na
-            <TextLabel text="Adobe Photoshop" />. Po stretnutí so zástupcom
-            klubu, za ktorý som hrával, som sa dostal k tvorbe grafík pre
-            <SingleLink text="MBK Karlovka" link="http://mbkkarlovka.sk/" />.
-            Staral som sa o webstránku, tvoril grafiky a sem príležitostne
-            natáčal + strihal
-            <SingleLink
-              text="videá"
-              link="https://www.youtube.com/watch?v=9rW8VoaWGVE"
-            />
+            <span class="text-special"> CorelDraw </span> z ktorého som prešiel
+            na <span class="text-special"> Adobe Photoshop </span>. Po stretnutí
+            so zástupcom klubu, za ktorý som hrával, som sa dostal k tvorbe
+            grafík pre
+            <ExternalLink href="http://mbkkarlovka.sk/"
+              >MBK Karlovka</ExternalLink
+            >. Staral som sa o webstránku, tvoril grafiky a sem príležitostne
+            natáčal +
+            <ExternalLink href="https://www.youtube.com/watch?v=9rW8VoaWGVE"
+              >strihal videá</ExternalLink
+            >
             zo zápasov.
           </p>
-          <StoryChapter title="Vlastný portál" />
-          <h3 class="my-4 text-xl font-medium">Zlomený palec</h3>
+          <h2 class="paragraph-heading text-heading3">Vlastný portál</h2>
+          <h3 class="text-md text-special mt-4 font-medium">Zlomený palec</h3>
           <p class="mt-2 leading-7 md:pr-10">
             V deväťnástich rokoch som si na Majstrovstvách Európy do dvadsať
             rokov neštastne zlomil palec a musel som predčasne odletiť domov na
             operáciu. Bol to pre mna zlomový bod. Utvrdil som sa v tom, že treba
             rozmýšľat aj nad inými možnostami ako hrať basketbal.
           </p>
-          <h3 class="my-4 text-xl font-medium">Založenie portálu</h3>
+          <h3 class="text-md text-special mt-4 font-medium">
+            Založenie portálu
+          </h3>
           <p class="mt-2 leading-7 md:pr-10">
             Basketbal však nie je len o hraní, je to životný štýl a komunita.
             Tým, že mi toho veľa dal. Rozhodol som sa mu niečo vrátiť. Vybudoval
@@ -64,7 +70,7 @@
             <TextLabel text="JavaScripte" /> a na backend-e bol
             <TextLabel text="Laravel" />.
           </p>
-          <h3 class="my-4 text-xl font-medium">Úspech!</h3>
+          <h3 class="text-md text-special mt-4 font-medium">Úspech!</h3>
           <p class="mt-2 mb-10 leading-7 md:pr-10">
             Tento projekt pod názvom basketlab.sk zožal úspech. Hovorilo sa o
             ňom, ľudia sa pýtali kto za ním stojí a čísla nielen, na sociálnych
@@ -78,7 +84,7 @@
             slovakbasket.
           </p>
 
-          <StoryChapter title="Mendelka" />
+          <h2 class="paragraph-heading text-heading3">Mendelka</h2>
           <p class="mt-2 leading-7 md:pr-10">
             V tom čase som bol už študentom prvého ročníka na
             <SingleLink text="PEF Mendelu" link="https://pef.mendelu.cz/" /> v
@@ -93,7 +99,7 @@
             <TextLabel text="objektovo orientovaný návrh" />, dávať čoraz väčší
             zmysel.
           </p>
-          <StoryChapter title="Junior web developer" />
+          <h2 class="paragraph-heading text-heading3">Junior web developer</h2>
           <p class="mt-2 leading-7 md:pr-10">
             Mal som za sebou odkódených niekoľko
             <TextLabel text="minimálne" />
@@ -102,7 +108,7 @@
             kamaráta, ktorý mi poradil ako sa začat hlbšie venovať práve tvorbe
             webových aplikácii.
           </p>
-          <h3 class="my-4 text-xl font-medium">Prvá skúsenosť</h3>
+          <h3 class="text-md text-special mt-4 font-medium">Prvá skúsenosť</h3>
           <p class="mt-2 leading-7 md:pr-10">
             Práve vďaka nemu, som dostal príležitosť zlepšovať sa na reálnych
             projektoch vo firme Vermont. Pracovali sme v malom tíme cca
@@ -121,30 +127,28 @@
           <p class="mt-2 mb-10 leading-7 md:pr-10">
             Kde som si vyskúšal nielen prácu s frontendom
             <TextLabel text="Vue.js" /> <TextLabel text="Bootstrap" /> ale aj
-            backendom <TextLabel text="Laravel" /> <TextLabel text="MySQL" />,
-            či návrh databázy na nový projekt.
+            backendom
+            <ExternalLink href="https://laravel.com/">Laravel</ExternalLink>,
+            <ExternalLink href="https://www.mysql.com/">MySQL</ExternalLink>, či
+            návrh databázy na nový projekt.
           </p>
-          <StoryChapter title="Frontend" />
+          <h2 class="paragraph-heading text-heading3">Frontend</h2>
           <p class="mt-2 leading-7 md:pr-10">
             Dnes je zo mna Frontend web developer. Rukami mi prešlo niekoľko
             technológii, prečítal som si niekoľko zaujimavých článkov či
             dokumentácii. No stále je to len začiatok, to je to čo ma na tom
-            baví. Nekonečné? možnosti. Okrem Vue som som sa venoval aj React-u a
-            vytvoril v oboch niekoľko projektov. Zamiloval som si
-            <TextLabel text="Tailwind css" />. Vyskúšal som si
-            <TextLabel text="Next.js 13" /> a snažím sa zlepšovať okrem iného aj
-            v <TextLabel text="Typescripte" />.
+            baví. Nekonečné? možnosti. Okrem
+            <ExternalLink href="https://vuejs.org/">Vue.js</ExternalLink> som
+            som sa venoval aj React-u a vytvoril v oboch niekoľko projektov.
+            Zamiloval som si
+            <ExternalLink href="https://tailwindcss.com/"
+              >Tailwind CSS</ExternalLink
+            >
+            a
+            <ExternalLink href="https://nuxt.com/">Nuxt.js</ExternalLink>
           </p>
         </div>
       </main>
-      <footer class="mt-10 flex gap-x-10 py-10">
-        Follow me on:
-        <SingleLink text="Github" link="https://github.com/dmnkhvl" />
-        <SingleLink
-          text="LinkedIn"
-          link="https://www.linkedin.com/in/dmnkhvl/"
-        />
-      </footer>
     </div>
   </div>
 </template>
