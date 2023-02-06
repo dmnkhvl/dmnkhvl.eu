@@ -71,20 +71,23 @@
             som portál o slovenskom basketbale. Cieľom bolo priniesť zaujímavé
             rozhovory aktuálne informácie, výsledky a štatistiky hráčov. Najprv
             všetko fungovalo na sociálnych sietiach. Neskôr sa pridal web, ktorý
-            slúžil ako blog na spomínané rozhovory. Bol postaveny na
-            <TextLabel text="JavaScripte" /> a na backend-e bol
-            <TextLabel text="Laravel" />.
+            slúžil ako blog na spomínané rozhovory. Bol postavený na
+            <span class="text-special"> JavaScripte </span> a na backend-e bol
+            <span class="text-special"> Laravel </span>.
           </p>
           <h3 class="text-md text-special mt-4 font-medium">Úspech!</h3>
           <p class="mt-2 mb-10 leading-7 md:pr-10">
-            Tento projekt pod názvom basketlab.sk zožal úspech. Hovorilo sa o
-            ňom, ľudia sa pýtali kto za ním stojí a čísla nielen, na sociálnych
-            sietiach stúpali. Dovolim si tvrdiť, že sme boli najoblúbenejší
-            portál na Slovensku. Po dohode s generálnym sekretárom
-            <SingleLink
-              text="Slovenskej Basketbalovej Asociácie"
-              link="https://slovakbasket.sk/sk/"
-            />
+            Tento projekt pod názvom
+            <ExternalLink href="https://www.instagram.com/basketlab.sk/"
+              >basketlab.sk</ExternalLink
+            >
+            zožal úspech. Hovorilo sa o ňom, ľudia sa pýtali kto za ním stojí a
+            čísla nielen, na sociálnych sietiach stúpali. Dovolim si tvrdiť, že
+            sme boli najoblúbenejší portál na Slovensku. Po dohode s generálnym
+            sekretárom
+            <ExternalLink href="https://slovakbasket.sk/sk/"
+              >Slovenskej Basketbalovej Asociácie</ExternalLink
+            >
             zanikla značka basketlab a pokračovalo sa pod hlavičkou
             slovakbasket.
           </p>
@@ -92,32 +95,39 @@
           <h2 class="paragraph-heading text-heading3">Mendelka</h2>
           <p class="mt-2 leading-7 md:pr-10">
             V tom čase som bol už študentom prvého ročníka na
-            <SingleLink text="PEF Mendelu" link="https://pef.mendelu.cz/" /> v
-            odbore
-            <SingleLink
-              text="Systémové inžinierstvo a informatika"
-              link="https://is.mendelu.cz/katalog/plany.pl?fakulta=2;poc_obdobi=584;misto_vyuky=;typ_ss=;typ_studia=1;program=3;obor=10;specializace=-2;new_spec=-2;podprogram=;forma=1;stud_plan=9595;lang=sk"
-            />. Po prvom ročníku som si povedal, že je čas pracovať a zlepšovať
+            <ExternalLink href="https://pef.mendelu.cz/"
+              >PEF Mendelu</ExternalLink
+            >
+            v odbore
+            <ExternalLink
+              href="https://is.mendelu.cz/katalog/plany.pl?fakulta=2;poc_obdobi=584;misto_vyuky=;typ_ss=;typ_studia=1;program=3;obor=10;specializace=-2;new_spec=-2;podprogram=;forma=1;stud_plan=9595;lang=sk"
+              >Systémové inžinierstvo a informatika</ExternalLink
+            >. Po prvom ročníku som si povedal, že je čas pracovať a zlepšovať
             sa v odbore. Z čoho pramenil moj odchod z SBA. Počas prvého ročníka
             mi začali princípy programovania, aj vďaka predmetom ako
-            <TextLabel text="algoritmizácia" /> alebo
-            <TextLabel text="objektovo orientovaný návrh" />, dávať čoraz väčší
-            zmysel.
+            <span class="text-special"> algoritmizácia </span>
+            alebo
+            <span class="text-special"> objektovo orientovaný návrh </span>
+            , dávať čoraz väčší zmysel. Počas štúdia som si vyskúšal vytvoriť
+            projekty aj v <span class="text-special">Jave</span>,
+            <span class="text-special">Pythone</span> či
+            <span class="text-special">Swifte</span>.
           </p>
           <h2 class="paragraph-heading text-heading3">Junior web developer</h2>
           <p class="mt-2 leading-7 md:pr-10">
-            Mal som za sebou odkódených niekoľko
-            <TextLabel text="minimálne" />
-            desiatok hodín v rôznych programovacích jazykoch. Najviac sa mi ale
-            pozdávali webové technológie. Naštastie som mal staršieho skúseneho
-            kamaráta, ktorý mi poradil ako sa začat hlbšie venovať práve tvorbe
-            webových aplikácii.
+            Mal som za sebou odkódených niekoľko minimálne desiatok hodín v
+            rôznych programovacích jazykoch. Najviac sa mi ale pozdávali webové
+            technológie. Naštastie som mal staršieho skúseneho kamaráta, ktorý
+            mi poradil ako sa začat hlbšie venovať práve tvorbe webových
+            aplikácii.
           </p>
           <h3 class="text-md text-special mt-4 font-medium">Prvá skúsenosť</h3>
           <p class="mt-2 leading-7 md:pr-10">
             Práve vďaka nemu, som dostal príležitosť zlepšovať sa na reálnych
-            projektoch vo firme Vermont. Pracovali sme v malom tíme cca
-            desiatich ľudí na interných aplikáciach ako napríklad:
+            projektoch v IT oddelení firmy
+            <ExternalLink href="https://www.vermont.sk/">Vermont</ExternalLink>.
+            Pracovali sme v malom tíme cca desiatich ľudí na interných
+            aplikáciach ako napríklad:
           </p>
           <ul class="text-gray my-5">
             <li
@@ -131,11 +141,11 @@
 
           <p class="mt-2 mb-10 leading-7 md:pr-10">
             Kde som si vyskúšal nielen prácu s frontendom
-            <TextLabel text="Vue.js" /> <TextLabel text="Bootstrap" /> ale aj
-            backendom
-            <ExternalLink href="https://laravel.com/">Laravel</ExternalLink>,
-            <ExternalLink href="https://www.mysql.com/">MySQL</ExternalLink>, či
-            návrh databázy na nový projekt.
+            <span class="text-special">Vue.js</span>,
+            <span class="text-special">Bootstrap</span> ale aj backendom
+            <span class="text-special">Laravel</span>,
+            <span class="text-special">MySQL</span> či návrh databázy na nový
+            projekt.
           </p>
           <h2 class="paragraph-heading text-heading3">Frontend</h2>
           <p class="mt-2 leading-7 md:pr-10">
@@ -143,14 +153,12 @@
             technológii, prečítal som si niekoľko zaujimavých článkov či
             dokumentácii. No stále je to len začiatok, to je to čo ma na tom
             baví. Nekonečné? možnosti. Okrem
-            <ExternalLink href="https://vuejs.org/">Vue.js</ExternalLink> som
-            som sa venoval aj React-u a vytvoril v oboch niekoľko projektov.
-            Zamiloval som si
-            <ExternalLink href="https://tailwindcss.com/"
-              >Tailwind CSS</ExternalLink
-            >
+            <span class="text-special">Vue.js</span> som som sa venoval aj
+            <span class="text-special">React-u</span> a vytvoril v oboch
+            niekoľko projektov. Zamiloval som si
+            <span class="text-special">Tailwind CSS</span>
             a
-            <ExternalLink href="https://nuxt.com/">Nuxt.js</ExternalLink>
+            <span class="text-special">Nuxt.js</span>
           </p>
         </div>
       </main>
