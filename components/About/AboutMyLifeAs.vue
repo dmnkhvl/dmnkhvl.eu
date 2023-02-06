@@ -160,7 +160,7 @@
       </p>
     </div>
     <nuxt-link
-      to="/about"
+      to="/story"
       class="bg-special rounded-xl px-4 py-2 text-sm font-medium text-black transition duration-300 ease-in-out hover:text-white hover:ring-2 hover:ring-white"
     >
       {{ $t("fullstory") }}
