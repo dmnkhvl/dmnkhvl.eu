@@ -1,7 +1,7 @@
 <template>
   <section class="page-section">
     <h2 class="subtitle">{{ $t("skills") }}</h2>
-    <div class="mt-10 grid grid-cols-1 gap-y-6 sm:grid-cols-2 sm:gap-y-10">
+    <div class="grid grid-cols-1 gap-y-6 sm:grid-cols-2 sm:gap-y-10">
       <div>
         <h3 class="text-gray text-lg font-medium">{{ $t("languages") }}</h3>
         <div class="mt-2 grid grid-cols-2">

@@ -71,7 +71,7 @@ select {
 }
 
 .subtitle {
-  @apply text-2xl font-bold capitalize text-white sm:text-[1.875rem];
+  @apply text-2xl mb-5 font-bold capitalize text-white sm:text-[1.875rem];
 }
 
 .label {
@@ -100,5 +100,5 @@ select {
 }
 
 .paragraph-heading {
-  @apply text-special decoration-special/20 pt-10 leading-none underline underline-offset-4;
+  @apply text-special decoration-special/20  leading-none underline underline-offset-4;
 }

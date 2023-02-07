@@ -6,4 +6,3 @@
     <AboutWorkExperience />
   </main>
 </template>
-<script></script>

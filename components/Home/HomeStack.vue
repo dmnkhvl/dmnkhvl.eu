@@ -1,29 +1,31 @@
 <template>
-  <div>
-    <h2 class="subtitle mt-1">tech stack</h2>
-    <p class="mt-2 max-w-lg">
-      {{ $t("homeTechStackText") }}
-    </p>
+  <section class="container page-section sm:flex sm:justify-between">
     <div>
-      <div class="mt-6 grid grid-cols-2 gap-2 sm:text-lg">
-        <div
-          class="flex items-center gap-x-3"
-          v-for="tech in stack"
-          :key="tech.id"
-        >
-          <nuxt-img
-            :src="tech.img"
-            class="h-[20px] w-[20px] rounded-sm object-scale-down"
-            :alt="tech.name"
-          />
-          <p class="text-white">{{ tech.name }}</p>
+      <h2 class="subtitle mt-1">tech stack</h2>
+      <p class="mt-2 max-w-lg">
+        {{ $t("homeTechStackText") }}
+      </p>
+      <div>
+        <div class="mt-6 grid grid-cols-2 gap-2 sm:text-lg">
+          <div
+            class="flex items-center gap-x-3"
+            v-for="tech in stack"
+            :key="tech.id"
+          >
+            <nuxt-img
+              :src="tech.img"
+              class="h-[20px] w-[20px] rounded-sm object-scale-down"
+              :alt="tech.name"
+            />
+            <p class="text-white">{{ tech.name }}</p>
+          </div>
+          <NuxtLink to="/about" class="link text-sm sm:text-base">{{
+            $t("seeAll")
+          }}</NuxtLink>
         </div>
-        <NuxtLink to="/about" class="link text-sm sm:text-base">{{
-          $t("seeAll")
-        }}</NuxtLink>
       </div>
     </div>
-  </div>
+  </section>
 </template>
 <script>
 export default {

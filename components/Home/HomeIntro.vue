@@ -5,7 +5,6 @@
       alt="profile-picture"
       class="h-[120px] w-[120px] rounded-full object-cover sm:h-[160px] sm:w-[160px]"
     />
-
     <div>
       <div>
         <h1
