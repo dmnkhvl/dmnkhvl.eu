@@ -97,7 +97,7 @@ select {
 }
 
 .paragraph-heading {
-  @apply text-special decoration-special/20  leading-none underline underline-offset-4;
+  @apply text-special decoration-special/20  leading-none underline underline-offset-4 mt-10;
 }
 
 .btn{
