@@ -32,5 +32,13 @@
   "years_alt": "years",
   "more": "more",
   "fullstory": "Full story",
-  "emailMe": "Email me"
+  "emailMe": "Email me",
+  "githubContact": "Sharing projects, insights",
+  "twitterContact": "Staying up-to-date with the latest trends",
+  "linkedinContact": "Building professional relationships",
+  "name": "Name",
+  "message": "Message",
+  "submit": "Submit",
+  "saySomething": "Say something nice :)",
+  "sendMessage": "Send me a message"
 }

@@ -32,5 +32,13 @@
   "years": "rokov",
   "more": "viac",
   "fullstory": "Celý príbeh",
-  "emailMe": "Pošlite mi email"
+  "emailMe": "Pošlite mi email",
+  "githubContact": "Zdieľanie projektov",
+  "twitterContact": "Sledovanie najnovších trendov",
+  "linkedinContact": "Budovanie profesionálnych vzťahov",
+  "name": "Meno",
+  "message": "Správa",
+  "submit": "Odoslať",
+  "saySomething": "Tu mi môžete zanechať správu :)",
+  "sendMessage": "Pošlite mi správu"
 }

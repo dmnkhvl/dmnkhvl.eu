@@ -8,5 +8,17 @@ export default defineNuxtConfig({
     "nuxt-icons",
     "@formkit/nuxt",
     "@nuxt/image-edge",
+    [
+      "nuxt-mail",
+      {
+        message: {
+          to: "dev@dmnkhvl.eu",
+        },
+        smtp: {
+          host: "smtp.hostcreators.sk",
+          port: 465,
+        },
+      },
+    ],
   ],
 });

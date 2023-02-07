@@ -5,7 +5,10 @@
       {{ $t("contactMsg") }}
     </p>
     <ContactSocials />
-    <!--    <ContactForm />-->
+    <h2 class="text-white mt-10">{{ $t("sendMessage") }}</h2>
+    <a href="mailto:dev@dmnkhvl.eu" class="link text-4xl block">
+      dev@dmnkhvl.eu
+    </a>
   </main>
 </template>
 <script setup></script>

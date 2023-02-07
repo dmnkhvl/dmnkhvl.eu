@@ -6,7 +6,7 @@
         href="https://github.com/dmnkhvl"
         ><nuxt-icon name="github" class="text-white mr-2" />Github</ExternalLink
       >
-      <p class="sm:ml-2 mt-1 sm:mt-0">Sharing projects, insights</p>
+      <p class="sm:ml-2 mt-1 sm:mt-0">{{ $t("githubContact") }}</p>
     </div>
     <div class="sm:flex sm:items-center mt-4 sm:mt-1">
       <ExternalLink
@@ -18,7 +18,7 @@
         />Twitter</ExternalLink
       >
       <p class="sm:ml-2 mt-1 sm:mt-0">
-        Staying up-to-date with the latest trends
+        {{ $t("twitterContact") }}
       </p>
     </div>
     <div class="sm:flex sm:items-center mt-4 sm:mt-1">
@@ -30,7 +30,7 @@
           class="text-white mr-2"
         />LinkedIn</ExternalLink
       >
-      <p class="sm:ml-2 mt-1 sm:mt-0">Building professional relationships</p>
+      <p class="sm:ml-2 mt-1 sm:mt-0">{{ $t("linkedinContact") }}</p>
     </div>
   </section>
 </template>
