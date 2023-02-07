@@ -6,7 +6,7 @@
     </p>
     <ContactSocials />
     <h2 class="text-white mt-10">{{ $t("sendMessage") }}</h2>
-    <a href="mailto:dev@dmnkhvl.eu" class="link text-3xl sm:text-4xl block">
+    <a href="mailto:dev@dmnkhvl.eu" class="link text-2xl sm:text-3xl block">
       dev@dmnkhvl.eu
     </a>
   </main>
