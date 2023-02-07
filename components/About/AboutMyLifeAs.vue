@@ -161,7 +161,7 @@
     </div>
     <nuxt-link
       to="/story"
-      class="bg-special rounded-xl px-4 py-2 text-sm font-medium text-black transition duration-300 ease-in-out hover:text-white hover:bg-special/60"
+      class="bg-special/5 px-6 py-2 text-special rounded-full hover:bg-special/10"
     >
       {{ $t("fullstory") }}
     </nuxt-link>
