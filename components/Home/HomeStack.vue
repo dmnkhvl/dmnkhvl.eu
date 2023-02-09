@@ -1,5 +1,5 @@
 <template>
-  <section class="container page-section sm:flex sm:justify-between">
+  <section class="page-section container sm:flex sm:justify-between">
     <div>
       <h2 class="subtitle mt-1">tech stack</h2>
       <p class="mt-2 max-w-lg">
@@ -14,8 +14,9 @@
           >
             <nuxt-img
               :src="tech.img"
-              class="h-[20px] w-[20px] rounded-sm object-scale-down"
+              class="rounded-sm object-scale-down"
               :alt="tech.name"
+              sizes="xs:20px"
             />
             <p class="text-white">{{ tech.name }}</p>
           </div>
