@@ -7,6 +7,7 @@
       :src="project.img"
       :alt="project.title"
       class="h-56 w-full rounded-xl object-cover sm:mr-10 sm:h-[150px] sm:w-[250px]"
+      sizes="xs:1000px"
     />
 
     <div class="mt-4 flex items-center gap-x-2 sm:hidden">
