@@ -71,7 +71,7 @@ select {
 }
 
 .subtitle {
-  @apply text-2xl mb-5 font-bold capitalize text-white sm:text-[1.875rem];
+  @apply mb-5 text-2xl font-bold capitalize text-white sm:text-[1.875rem];
 }
 
 .label {
@@ -86,7 +86,6 @@ select {
   @apply hover:decoration-special hover:text-special text-white underline decoration-white/20 decoration-dotted underline-offset-8 transition duration-300 ease-in-out hover:decoration-solid;
 }
 
-
 .btn-primary {
   @apply bg-white/80;
   background: linear-gradient(88.68deg, #0ad27d -36.99%, #6aecb8 111.2%);
@@ -97,9 +96,9 @@ select {
 }
 
 .paragraph-heading {
-  @apply text-special decoration-special/20  leading-none underline underline-offset-4 mt-10;
+  @apply text-special mt-10  leading-none;
 }
 
-.btn{
-  @apply bg-special rounded-xl px-4 py-2 text-sm font-medium text-black transition duration-300 ease-in-out hover:text-black hover:bg-special/80
+.btn {
+  @apply bg-special hover:bg-special/80 rounded-xl px-4 py-2 text-sm font-medium text-black transition duration-300 ease-in-out hover:text-black;
 }

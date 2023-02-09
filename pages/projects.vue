@@ -4,7 +4,18 @@
     <p class="mt-10 mb-20 font:text-xl text-2xl text-yellow-300">
       This page is in progress...
     </p>
-    <ProjectsCards />
+    <section class="page-section grid grid-cols-2 gap-x-4 gap-y-10">
+      <div v-for="project in projects" :key="project.id">
+        <nuxt-img
+          :src="project.img"
+          :alt="project.title"
+          class="h-56 w-full rounded-xl object-cover sm:mr-10 sm:h-[200px] sm:w-[300px]"
+        />
+        <h2 class="mt-2 text-center text-xl text-white">
+          {{ project.title }}
+        </h2>
+      </div>
+    </section>
   </main>
 </template>
 <script>
