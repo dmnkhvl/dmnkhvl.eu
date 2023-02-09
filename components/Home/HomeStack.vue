@@ -14,7 +14,7 @@
           >
             <nuxt-img
               :src="tech.img"
-              class="rounded-sm object-scale-down"
+              class="h-[20px] w-[20px] rounded-sm object-scale-down"
               :alt="tech.name"
               sizes="xs:20px"
             />

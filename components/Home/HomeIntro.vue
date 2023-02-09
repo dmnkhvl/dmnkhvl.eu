@@ -3,7 +3,7 @@
     <nuxt-img
       src="/profilePic.jpg"
       alt="profile-picture"
-      class="rounded-full object-cover"
+      class="h-[120px] w-[120px] rounded-full object-cover sm:h-[160px] sm:w-[160px]"
       sizes="xs:120px sm:160px"
     />
     <div>
