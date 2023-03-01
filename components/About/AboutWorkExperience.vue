@@ -76,6 +76,14 @@ export default {
       experiences: [
         {
           id: 0,
+          company: "Websupport.sk",
+          startDate: "2023-02-28",
+          endDate: "",
+          date: "mar2023 - present",
+          position: "Frontend Developer",
+        },
+        {
+          id: 1,
           company: "Freelance",
           startDate: "2022-10-01",
           endDate: "",
@@ -83,7 +91,7 @@ export default {
           position: "Web Developer",
         },
         {
-          id: 1,
+          id: 2,
           company: "Slovak national team",
           startDate: "2022-06-01",
           endDate: "2022-12-01",
@@ -91,7 +99,7 @@ export default {
           position: "Basketball player",
         },
         {
-          id: 2,
+          id: 3,
           company: "Vermont services",
           startDate: "2022-03-01",
           endDate: "2022-08-01",
@@ -99,7 +107,7 @@ export default {
           position: "Junior Web Developer",
         },
         {
-          id: 3,
+          id: 4,
           company: "Basketlab.sk",
           startDate: "2018-08-01",
           endDate: "2021-10-01",
@@ -107,7 +115,7 @@ export default {
           position: "Founder, creator",
         },
         {
-          id: 4,
+          id: 5,
           company: "Freelance",
           startDate: "2015-01-01",
           endDate: "2021-12-01",

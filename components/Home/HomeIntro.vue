@@ -1,23 +1,19 @@
 <template>
   <div class="container items-center gap-x-10 sm:flex">
-    <nuxt-img
-      src="/profilePic.jpg"
-      alt="profile-picture"
-      class="h-[120px] w-[120px] rounded-full object-cover sm:h-[160px] sm:w-[160px]"
-      sizes="xs:120px sm:160px"
-    />
     <div>
       <div>
-        <h1
-          class="mt-4 text-3xl font-bold capitalize text-white sm:mt-0 sm:text-4xl"
-        >
-          Dominik Havel
-        </h1>
-        <h2 class="text-special capitalize sm:-mt-1 sm:text-[0.98rem]">
-          {{ $t("dh_subtitle") }}
-        </h2>
+        <h1 class="mt-4 title sm:mt-0">Hi, I'm Dominik 👋</h1>
       </div>
-      <p class="mt-2">{{ getGreeting($i18n.locale) }}, {{ $t("homeIntro") }}</p>
+      <p class="mt-4">
+        Frontend developer at
+        <a
+          href="https://www.websupport.sk/"
+          class="hover:text-websupport-red hover:decoration-websupport-red text-websupport-red underline decoration-websupport-red/40 decoration-dotted underline-offset-4 transition duration-300 ease-in-out hover:decoration-solid active:decoration-white"
+          >Websupport</a
+        >
+        & part-time graphic designer from Bratislava, Slovakia. Transforming
+        code into meaningful experiences.
+      </p>
     </div>
   </div>
 </template>

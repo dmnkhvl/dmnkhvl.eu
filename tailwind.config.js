@@ -13,9 +13,10 @@ module.exports = {
       colors: {
         black: "#0C0D0C",
         white: "#fff",
-        gray: "#94a3b8",
+        gray: "#98A0A9",
         special: "#00dc82",
         alt: "#7cfbc7",
+        "websupport-red": "#CC5F5A",
         "special-darker": "#05b76e",
       },
       fontFamily: {
