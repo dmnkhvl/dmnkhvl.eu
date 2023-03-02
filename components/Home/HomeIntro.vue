@@ -8,7 +8,9 @@
         Frontend developer at
         <a
           href="https://www.websupport.sk/"
-          class="hover:text-websupport-red hover:decoration-websupport-red text-websupport-red underline decoration-websupport-red/40 decoration-dotted underline-offset-4 transition duration-300 ease-in-out hover:decoration-solid active:decoration-white"
+          target="_blank"
+          ref="noreferrer"
+          class="hover:text-websupport-red hover:decoration-websupport-red text-white underline decoration-white/20 decoration-dotted underline-offset-4 transition duration-300 ease-in-out hover:decoration-solid active:decoration-white"
           >Websupport</a
         >
         & part-time graphic designer from Bratislava, Slovakia. Transforming

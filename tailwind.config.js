@@ -17,6 +17,7 @@ module.exports = {
         special: "#00dc82",
         alt: "#7cfbc7",
         "websupport-red": "#CC5F5A",
+        "websupport-green": "#70DCD5",
         "special-darker": "#05b76e",
       },
       fontFamily: {
