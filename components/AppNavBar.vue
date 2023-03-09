@@ -25,9 +25,9 @@
         </NuxtLink>
         <NuxtLink to="/about" class="nav-link"> {{ $t("about") }} </NuxtLink>
 
-        <NuxtLink to="/projects" class="nav-link">
-          {{ $t("projects") }}</NuxtLink
-        >
+        <!--        <NuxtLink to="/projects" class="nav-link">-->
+        <!--          {{ $t("projects") }}</NuxtLink-->
+        <!--        >-->
         <NuxtLink to="/contact" class="nav-link"> {{ $t("contact") }}</NuxtLink>
         <LanguageSelect class="sm:hidden" />
       </nav>
