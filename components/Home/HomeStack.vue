@@ -53,16 +53,16 @@ export default {
           name: "Nuxt.js",
           img: "/nuxt.png",
         },
-        {
-          id: 4,
-          name: "React",
-          img: "/react.png",
-        },
-        {
-          id: 5,
-          name: "Next.js",
-          img: "/next.png",
-        },
+        // {
+        //   id: 4,
+        //   name: "React",
+        //   img: "/react.png",
+        // },
+        // {
+        //   id: 5,
+        //   name: "Next.js",
+        //   img: "/next.png",
+        // },
         {
           id: 6,
           name: "Tailwind CSS",

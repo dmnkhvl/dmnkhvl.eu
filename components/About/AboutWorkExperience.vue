@@ -43,6 +43,10 @@ export default {
       const years = Math.floor(diffYears);
       const months = Math.floor(diffMonths % 12);
 
+      // if (months === 0) {
+      //   months = 1;
+      // }
+
       let yearString =
         years === 1
           ? this.$t("year")
@@ -77,7 +81,7 @@ export default {
         {
           id: 0,
           company: "Websupport.sk",
-          startDate: "2023-02-28",
+          startDate: "2023-03-01",
           endDate: "",
           date: "mar2023 - present",
           position: "Frontend Developer",

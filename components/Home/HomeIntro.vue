@@ -4,17 +4,16 @@
       <div>
         <h1 class="mt-4 title sm:mt-0">Hi, I'm Dominik 👋</h1>
       </div>
-      <p class="mt-4">
-        Frontend developer at
+      <p class="mt-4 max-w-md">
+        Frontend developer, currently transforming code into meaningful and
+        enjoyable experiences at
         <a
           href="https://www.websupport.sk/"
           target="_blank"
           ref="noreferrer"
           class="hover:text-websupport-red hover:decoration-websupport-red text-white underline decoration-white/20 decoration-dotted underline-offset-4 transition duration-300 ease-in-out hover:decoration-solid active:decoration-white"
           >Websupport</a
-        >
-        & part-time graphic designer from Bratislava, Slovakia. Transforming
-        code into meaningful experiences.
+        >.
       </p>
     </div>
   </div>

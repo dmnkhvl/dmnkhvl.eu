@@ -2,7 +2,7 @@
   <main class="container">
     <AboutIntro />
     <AboutSkills />
-    <AboutMyLifeAs />
     <AboutWorkExperience />
+    <AboutMyLifeAs />
   </main>
 </template>
