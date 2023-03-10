@@ -6,18 +6,6 @@ body {
   @apply text-gray bg-black text-[1rem];
 }
 
-body::before {
-  width: 100%;
-  height: 80%;
-  content: "";
-  position: fixed;
-  background: radial-gradient(
-    75.61% 75.61% at 50% 24.39%,
-    rgb(16, 15, 15) 0%,
-    rgb(12, 13, 12) 100%
-  );
-  z-index: -1;
-}
 
 @font-face {
   font-family: "DM Sans";
@@ -102,3 +90,4 @@ select {
 .btn {
   @apply bg-special hover:bg-special/80 rounded-xl px-4 py-2 text-sm font-medium text-black transition duration-300 ease-in-out hover:text-black;
 }
+

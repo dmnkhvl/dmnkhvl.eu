@@ -3,10 +3,10 @@
     <div>
       <div>
         <h1 class="mt-4 title sm:mt-0">Hi, I'm Dominik 👋</h1>
+        <h2 class="text-xl text-special">Frontend developer</h2>
       </div>
       <p class="mt-4 max-w-md">
-        Frontend developer, currently transforming code into meaningful and
-        enjoyable experiences at
+        Currently transforming code into meaningful and enjoyable experiences at
         <a
           href="https://www.websupport.sk/"
           target="_blank"
