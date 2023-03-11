@@ -16,7 +16,7 @@ module.exports = {
         gray: "#98A0A9",
         special: "#00dc82",
         alt: "#7cfbc7",
-        "websupport-red": "#CC5F5A",
+        "websupport-red": "#EA335E",
         "websupport-green": "#70DCD5",
         "special-darker": "#05b76e",
       },
