@@ -21,7 +21,7 @@ module.exports = {
         "special-darker": "#05b76e",
       },
       fontFamily: {
-        sans: ["DM Sans", "sans-serif"],
+        sans: ["Inter", "sans-serif"],
       },
       fontSize: {
         heading2: ["1.875rem", "2.25rem"],
